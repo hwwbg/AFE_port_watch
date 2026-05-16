@@ -32,7 +32,6 @@
         }
         h1 { font-size: 24px; font-weight: 600; color: #24292e; margin: 0 0 5px 0; }
         .header-subtitle { font-size: 13px; color: #666; margin: 0; }
-
         #loading {
             padding: 40px 25px;
             color: #666;
@@ -42,8 +41,6 @@
             justify-content: center;
             flex: 1;
         }
-
-        /* ── Controls bar ── */
         #controls {
             padding: 14px 25px 10px;
             background-color: #fafbfc;
@@ -52,12 +49,12 @@
             flex-direction: column;
             gap: 10px;
         }
-        .controls-row {
+        .controls-row, .slider-row {
             display: flex;
             align-items: center;
             gap: 12px;
         }
-        #controls label {
+        #controls label, .slider-label {
             font-size: 13px;
             font-weight: 500;
             color: #24292e;
@@ -80,14 +77,6 @@
             border-color: #0366d6;
             box-shadow: 0 0 0 3px rgba(3,102,214,0.1);
         }
-
-        /* ── Dual range slider ── */
-        .slider-row {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-        .slider-label { font-size: 13px; font-weight: 500; color: #24292e; white-space: nowrap; }
         .slider-wrap {
             position: relative;
             flex: 1;
@@ -117,7 +106,8 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            top: 0; left: 0;
+            top: 0;
+            left: 0;
             appearance: none;
             background: transparent;
             pointer-events: none;
@@ -125,7 +115,8 @@
         }
         .slider-wrap input[type=range]::-webkit-slider-thumb {
             appearance: none;
-            width: 16px; height: 16px;
+            width: 16px;
+            height: 16px;
             border-radius: 50%;
             background: #0366d6;
             border: 2px solid white;
@@ -134,7 +125,8 @@
             cursor: pointer;
         }
         .slider-wrap input[type=range]::-moz-range-thumb {
-            width: 16px; height: 16px;
+            width: 16px;
+            height: 16px;
             border-radius: 50%;
             background: #0366d6;
             border: 2px solid white;
@@ -150,7 +142,6 @@
             min-width: 130px;
             text-align: right;
         }
-
         #chart { flex: 1; overflow: hidden; padding: 15px 25px; }
         #source-note {
             font-size: 12px;
@@ -169,7 +160,7 @@
         <h1>Tanker Port Calls &amp; Import Volume</h1>
         <p class="header-subtitle" id="header-subtitle">East &amp; Southern Africa | Cumulative from Jan 1</p>
     </div>
-    <div id="loading">Loading data...</div>
+    <div id="loading">Loading cached data...</div>
     <div id="controls">
         <div class="controls-row">
             <label for="country-select">Country:</label>
@@ -186,7 +177,7 @@
                 <div class="slider-track"></div>
                 <div class="slider-fill" id="slider-fill"></div>
                 <input type="range" id="range-start" min="1" max="365" value="1">
-                <input type="range" id="range-end"   min="1" max="365" value="120">
+                <input type="range" id="range-end" min="1" max="365" value="120">
             </div>
             <span class="slider-range-label" id="slider-range-label">Jan 1 – Apr 30</span>
         </div>
@@ -196,26 +187,13 @@
 </div>
 
 <script>
-
-const AFE_COUNTRIES = {
-    'Angola': 'AGO', 'Burundi': 'BDI', 'Botswana': 'BWA',
-    'Democratic Republic of the Congo': 'COD', 'Comoros': 'COM',
-    'Eritrea': 'ERI', 'Ethiopia': 'ETH', 'Kenya': 'KEN',
-    'Lesotho': 'LSO', 'Madagascar': 'MDG', 'Mozambique': 'MOZ',
-    'Mauritius': 'MUS', 'Malawi': 'MWI', 'Namibia': 'NAM',
-    'Rwanda': 'RWA', 'Sudan': 'SDN', 'Somalia': 'SOM',
-    'South Sudan': 'SSD', 'Sao Tome and Principe': 'STP',
-    'Eswatini': 'SWZ', 'Seychelles': 'SYC', 'Tanzania': 'TZA',
-    'Uganda': 'UGA', 'South Africa': 'ZAF', 'Zambia': 'ZMB', 'Zimbabwe': 'ZWE'
-};
-
-const BASE_URL = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Ports_Data/FeatureServer/0/query";
+const DATA_URL = "dashboard/data/tanker_data.json";
 const COLORS = { 2024: "#636EFA", 2025: "#EF553B", 2026: "#00CC96" };
 const YEARS = [2024, 2025, 2026];
 const DEFAULT_COUNTRY = "Angola";
 const DAYS_IN_REFERENCE_YEAR = 365;
-const TODAY = new Date();
-const TODAY_DAY_OF_YEAR = parseDateToDayOfYear(TODAY);
+const TODAY_DAY_OF_YEAR = parseDateToDayOfYear(new Date());
+let tankerCache = null;
 
 function dayOfYearToDate(dayOfYear) {
     const d = new Date(Date.UTC(2025, 0, dayOfYear));
@@ -232,84 +210,18 @@ function parseDateToDayOfYear(dateVal) {
     return Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 86400000);
 }
 
-async function fetchCountriesWithPortData() {
-    try {
-        const where = `year >= 2024 AND portcalls_tanker > 0`;
-        const url = `${BASE_URL}?where=${encodeURIComponent(where)}&outFields=ISO3&returnDistinctValues=true&returnGeometry=false&f=json`;
-        const resp = await fetch(url);
-        const data = await resp.json();
-        if (data.error) {
-            console.warn('API error while loading valid countries:', data.error.message);
-            return new Set(Object.values(AFE_COUNTRIES));
-        }
-        return new Set((data.features || []).map(f => f.attributes && f.attributes.ISO3).filter(Boolean));
-    } catch (err) {
-        console.error('Fetch error while loading valid countries:', err);
-        return new Set(Object.values(AFE_COUNTRIES));
-    }
+function formatUpdatedTime(isoText) {
+    if (!isoText) return "unknown";
+    const d = new Date(isoText);
+    if (Number.isNaN(d.getTime())) return isoText;
+    return d.toLocaleString("en-US", { timeZoneName: "short" });
 }
 
-async function fetchCountryData(country, iso3) {
-    const where = `ISO3='${iso3}' AND year >= 2024`;
-    const pageSize = 1000;
-    let allFeatures = [];
-    let offset = 0;
-
-    try {
-        while (true) {
-            const url = `${BASE_URL}?where=${encodeURIComponent(where)}&outFields=date,year,country,portcalls_tanker,import_tanker&f=json&resultRecordCount=${pageSize}&resultOffset=${offset}`;
-            const resp = await fetch(url);
-            const data = await resp.json();
-            if (data.error) {
-                console.warn(`API error for ${country} at offset ${offset}:`, data.error.message);
-                break;
-            }
-            const features = data.features || [];
-            allFeatures.push(...features);
-            if (features.length < pageSize) break;
-            offset += pageSize;
-        }
-    } catch (err) {
-        console.error(`Fetch error for ${country}:`, err);
-    }
-    return allFeatures;
-}
-
-function aggregateData(features) {
-    const byYearDay = {};
-
-    for (const f of features) {
-        const attr = f.attributes || {};
-        const year = attr.year;
-        const dayOfYear = parseDateToDayOfYear(attr.date);
-        if (!year || !dayOfYear || dayOfYear < 1 || dayOfYear > 366) continue;
-
-        const key = `${year}|${dayOfYear}`;
-        if (!byYearDay[key]) byYearDay[key] = { year, dayOfYear, calls: 0, volume: 0 };
-        byYearDay[key].calls += attr.portcalls_tanker || 0;
-        byYearDay[key].volume += attr.import_tanker || 0;
-    }
-
-    const byYear = {};
-    for (const key in byYearDay) {
-        const rec = byYearDay[key];
-        if (!byYear[rec.year]) byYear[rec.year] = [];
-        byYear[rec.year].push(rec);
-    }
-
-    const result = {};
-    for (const year in byYear) {
-        const recs = byYear[year].sort((a, b) => a.dayOfYear - b.dayOfYear);
-        let cumCalls = 0, cumVol = 0;
-        for (const r of recs) {
-            cumCalls += r.calls;
-            cumVol += r.volume;
-            r.cumCalls = cumCalls;
-            r.cumVol = cumVol;
-        }
-        result[year] = recs;
-    }
-    return result;
+async function loadCachedData() {
+    const url = `${DATA_URL}?v=${Date.now()}`;
+    const resp = await fetch(url, { cache: "no-store" });
+    if (!resp.ok) throw new Error(`Unable to load ${DATA_URL}: ${resp.status}`);
+    return await resp.json();
 }
 
 function buildDenseSeries(recs, metric, year) {
@@ -317,14 +229,13 @@ function buildDenseSeries(recs, metric, year) {
     for (const r of recs || []) {
         valueMap.set(r.dayOfYear, metric === "volume" ? r.cumVol : r.cumCalls);
     }
-
     const x = [];
     const y = [];
     let lastValue = 0;
     for (let day = 1; day <= DAYS_IN_REFERENCE_YEAR; day++) {
         if (valueMap.has(day)) lastValue = valueMap.get(day);
         x.push(dayOfYearToIso(day));
-        if (year === 2026 && day > TODAY_DAY_OF_YEAR) {
+        if (year === new Date().getFullYear() && day > TODAY_DAY_OF_YEAR) {
             y.push(null);
         } else {
             y.push(lastValue);
@@ -335,7 +246,7 @@ function buildDenseSeries(recs, metric, year) {
 
 function buildTraces(aggregatedData, metric) {
     return YEARS.flatMap(year => {
-        const recs = aggregatedData[year] || [];
+        const recs = aggregatedData[String(year)] || [];
         if (!recs.length) return [];
         const dense = buildDenseSeries(recs, metric, year);
         return [{
@@ -354,7 +265,6 @@ function getVisibleYRange(traces, startDay, endDay) {
     const endIdx = Math.min(DAYS_IN_REFERENCE_YEAR - 1, endDay - 1);
     let ymin = Infinity;
     let ymax = -Infinity;
-
     for (const trace of traces) {
         for (let i = startIdx; i <= endIdx; i++) {
             const val = trace.y[i];
@@ -363,7 +273,6 @@ function getVisibleYRange(traces, startDay, endDay) {
             if (val > ymax) ymax = val;
         }
     }
-
     if (!Number.isFinite(ymin) || !Number.isFinite(ymax)) return null;
     if (ymin === ymax) {
         const pad = ymax === 0 ? 1 : Math.abs(ymax) * 0.05;
@@ -377,7 +286,6 @@ function renderChart(country, aggregatedData, metric, startDay, endDay) {
     const chartDiv = document.getElementById("chart");
     const traces = buildTraces(aggregatedData, metric);
     const hasAnyData = traces.length > 0 && traces.some(t => t.y.some(v => v != null && !Number.isNaN(v) && v > 0));
-
     if (!hasAnyData) {
         Plotly.purge("chart");
         const message = metric === "volume"
@@ -386,13 +294,10 @@ function renderChart(country, aggregatedData, metric, startDay, endDay) {
         chartDiv.innerHTML = `<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#999;font-size:14px;">${message}</div>`;
         return;
     }
-
     chartDiv.innerHTML = "";
-
     const yLabel = metric === "volume"
         ? "Cumulative Import Volume (MT) — from Jan 1"
         : "Cumulative Tanker Port Calls — from Jan 1";
-
     const layout = {
         xaxis: {
             title: "Date",
@@ -410,7 +315,6 @@ function renderChart(country, aggregatedData, metric, startDay, endDay) {
         margin: { l: 70, r: 40, t: 40, b: 50 },
         hovermode: "x unified"
     };
-
     Plotly.newPlot("chart", traces, layout, { responsive: true, displayModeBar: false });
 }
 
@@ -431,112 +335,92 @@ function updateSliderFill(startVal, endVal) {
     const fill = document.getElementById("slider-fill");
     fill.style.left = pct(startVal) + "%";
     fill.style.width = (pct(endVal) - pct(startVal)) + "%";
-    document.getElementById("slider-range-label").textContent =
-        dayOfYearToDate(startVal) + " – " + dayOfYearToDate(endVal);
-    document.getElementById("header-subtitle").textContent =
-        "East & Southern Africa | " + dayOfYearToDate(startVal) + " – " + dayOfYearToDate(endVal) + " | Cumulative from Jan 1";
+    document.getElementById("slider-range-label").textContent = dayOfYearToDate(startVal) + " – " + dayOfYearToDate(endVal);
+    document.getElementById("header-subtitle").textContent = "East & Southern Africa | " + dayOfYearToDate(startVal) + " – " + dayOfYearToDate(endVal) + " | Cumulative from Jan 1";
+}
+
+function getSelectedData(country) {
+    return tankerCache?.countries?.[country]?.data || {};
+}
+
+function redraw(forceFullRender = false) {
+    const select = document.getElementById("country-select");
+    const metricSelect = document.getElementById("metric-select");
+    const rangeStart = document.getElementById("range-start");
+    const rangeEnd = document.getElementById("range-end");
+    const country = select.value;
+    let s = parseInt(rangeStart.value, 10);
+    let e = parseInt(rangeEnd.value, 10);
+    if (s >= e) {
+        if (document.activeElement === rangeStart) {
+            s = Math.max(1, e - 1);
+            rangeStart.value = String(s);
+        } else {
+            e = Math.min(DAYS_IN_REFERENCE_YEAR, s + 1);
+            rangeEnd.value = String(e);
+        }
+    }
+    if (!forceFullRender) {
+        const updated = updateExistingChartRange(s, e);
+        if (!updated) forceFullRender = true;
+    }
+    if (forceFullRender) {
+        renderChart(country, getSelectedData(country), metricSelect.value, s, e);
+    }
+    updateSliderFill(s, e);
 }
 
 async function main() {
     const loading = document.getElementById("loading");
     const select = document.getElementById("country-select");
+    const metricSelect = document.getElementById("metric-select");
+    const rangeStart = document.getElementById("range-start");
+    const rangeEnd = document.getElementById("range-end");
 
-    loading.textContent = 'Loading available countries...';
-    const validISO3 = await fetchCountriesWithPortData();
-    const validCountries = Object.entries(AFE_COUNTRIES)
-        .filter(([country, iso3]) => validISO3.has(iso3))
-        .sort((a, b) => a[0].localeCompare(b[0]));
+    try {
+        loading.textContent = "Loading cached tanker data...";
+        tankerCache = await loadCachedData();
+    } catch (err) {
+        console.error(err);
+        loading.textContent = "Could not load cached tanker data. Please run the GitHub Actions workflow to generate dashboard/data/tanker_data.json.";
+        return;
+    }
 
-    select.innerHTML = '';
-    for (const [country] of validCountries) {
+    const validCountries = Object.keys(tankerCache.countries || {}).sort((a, b) => a.localeCompare(b));
+    if (!validCountries.length) {
+        loading.textContent = "No cached country data found.";
+        return;
+    }
+
+    select.innerHTML = "";
+    for (const country of validCountries) {
         const opt = document.createElement("option");
         opt.value = country;
         opt.textContent = country;
         select.appendChild(opt);
     }
+    select.value = validCountries.includes(DEFAULT_COUNTRY) ? DEFAULT_COUNTRY : validCountries[0];
 
-    const initialCountry = validCountries.some(([country]) => country === DEFAULT_COUNTRY)
-        ? DEFAULT_COUNTRY
-        : (validCountries[0] ? validCountries[0][0] : DEFAULT_COUNTRY);
-    select.value = initialCountry;
-
-    const metricSelect = document.getElementById("metric-select");
-    const rangeStart = document.getElementById("range-start");
-    const rangeEnd = document.getElementById("range-end");
     rangeStart.min = "1";
     rangeStart.max = String(DAYS_IN_REFERENCE_YEAR);
     rangeEnd.min = "1";
     rangeEnd.max = String(DAYS_IN_REFERENCE_YEAR);
 
-    const cache = {};
-    let initialized = false;
+    rangeStart.addEventListener("input", () => redraw(false));
+    rangeEnd.addEventListener("input", () => redraw(false));
+    select.addEventListener("change", () => redraw(true));
+    metricSelect.addEventListener("change", () => redraw(true));
 
-    async function loadAndRender(country) {
-        const chartDiv = document.getElementById("chart");
-        const controlsDiv = document.getElementById("controls");
-
-        if (!initialized) {
-            loading.textContent = `Loading ${country}...`;
-            loading.style.display = "flex";
-        } else {
-            chartDiv.innerHTML = `<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#999;font-size:14px;">Loading ${country}...</div>`;
-        }
-
-        if (!cache[country]) {
-            const iso3 = AFE_COUNTRIES[country];
-            const features = await fetchCountryData(country, iso3);
-            cache[country] = aggregateData(features);
-        }
-
-        if (!initialized) {
-            loading.style.display = "none";
-            controlsDiv.style.display = "flex";
-            document.getElementById("source-note").style.display = "block";
-            initialized = true;
-        }
-
-        document.getElementById("source-note").textContent =
-            `Data: Daily_Ports_Data API — loaded ${new Date().toLocaleTimeString()}`;
-
-        redraw(country, true);
-    }
-
-    function redraw(country, forceFullRender = false) {
-        const c = country || select.value;
-        if (!cache[c]) return;
-        let s = parseInt(rangeStart.value, 10);
-        let e = parseInt(rangeEnd.value, 10);
-        if (s >= e) {
-            if (document.activeElement === rangeStart) {
-                s = Math.max(1, e - 1);
-                rangeStart.value = String(s);
-            } else {
-                e = Math.min(DAYS_IN_REFERENCE_YEAR, s + 1);
-                rangeEnd.value = String(e);
-            }
-        }
-
-        if (!forceFullRender) {
-            const updated = updateExistingChartRange(s, e);
-            if (!updated) forceFullRender = true;
-        }
-        if (forceFullRender) {
-            renderChart(c, cache[c], metricSelect.value, s, e);
-        }
-        updateSliderFill(s, e);
-    }
-
-    rangeStart.addEventListener("input", () => redraw(undefined, false));
-    rangeEnd.addEventListener("input", () => redraw(undefined, false));
-    select.addEventListener("change", () => loadAndRender(select.value));
-    metricSelect.addEventListener("change", () => redraw(undefined, true));
+    loading.style.display = "none";
+    document.getElementById("controls").style.display = "flex";
+    document.getElementById("source-note").style.display = "block";
+    document.getElementById("source-note").textContent = `Data: cached from Daily_Ports_Data API; cache updated ${formatUpdatedTime(tankerCache.last_updated_utc)}`;
 
     updateSliderFill(parseInt(rangeStart.value, 10), parseInt(rangeEnd.value, 10));
-    await loadAndRender(initialCountry);
+    redraw(true);
 }
 
 window.addEventListener("load", main);
-
 </script>
 </body>
 </html>
