@@ -1,0 +1,36 @@
+name: Update tanker data cache
+
+on:
+  schedule:
+    # Run once per day at 06:20 UTC.
+    - cron: "20 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-tanker-data-cache
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch tanker data
+        run: python scripts/fetch_tanker_data.py
+
+      - name: Commit updated cache
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update tanker data cache"
+          file_pattern: dashboard/data/tanker_data.json
