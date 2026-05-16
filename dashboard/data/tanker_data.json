@@ -1,5 +1,5285 @@
 {
   "countries": {
+    "Angola": {
+      "data": {
+        "2024": [
+          {
+            "calls": 1.0,
+            "cumCalls": 1.0,
+            "cumVol": 0.0,
+            "dayOfYear": 1,
+            "volume": 0.0
+          },
+          {
+            "calls": 6.0,
+            "cumCalls": 7.0,
+            "cumVol": 37535.0,
+            "dayOfYear": 2,
+            "volume": 37535.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 8.0,
+            "cumVol": 38973.0,
+            "dayOfYear": 3,
+            "volume": 1438.0
+          },
+          {
+            "calls": 5.0,
+            "cumCalls": 13.0,
+            "cumVol": 40895.0,
+            "dayOfYear": 4,
+            "volume": 1922.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 15.0,
+            "cumVol": 48401.0,
+            "dayOfYear": 5,
+            "volume": 7506.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 16.0,
+            "cumVol": 48401.0,
+            "dayOfYear": 6,
+            "volume": 0.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 20.0,
+            "cumVol": 185151.0,
+            "dayOfYear": 7,
+            "volume": 136750.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 23.0,
+            "cumVol": 188456.0,
+            "dayOfYear": 8,
+            "volume": 3305.0
+          },
+          {
+            "calls": 7.0,
+            "cumCalls": 30.0,
+            "cumVol": 203405.0,
+            "dayOfYear": 9,
+            "volume": 14949.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 32.0,
+            "cumVol": 205303.0,
+            "dayOfYear": 10,
+            "volume": 1898.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 34.0,
+            "cumVol": 205303.0,
+            "dayOfYear": 11,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 35.0,
+            "cumVol": 210911.0,
+            "dayOfYear": 12,
+            "volume": 5608.0
+          },
+          {
+            "calls": 6.0,
+            "cumCalls": 41.0,
+            "cumVol": 224176.0,
+            "dayOfYear": 13,
+            "volume": 13265.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 43.0,
+            "cumVol": 225056.0,
+            "dayOfYear": 14,
+            "volume": 880.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 47.0,
+            "cumVol": 226638.0,
+            "dayOfYear": 15,
+            "volume": 1582.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 48.0,
+            "cumVol": 226638.0,
+            "dayOfYear": 16,
+            "volume": 0.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 51.0,
+            "cumVol": 296206.0,
+            "dayOfYear": 17,
+            "volume": 69568.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 55.0,
+            "cumVol": 307579.0,
+            "dayOfYear": 18,
+            "volume": 11373.0
+          },
+          {
+            "calls": 5.0,
+            "cumCalls": 60.0,
+            "cumVol": 314914.0,
+            "dayOfYear": 19,
+            "volume": 7335.0
+          },
+          {
+            "calls": 5.0,
+            "cumCalls": 65.0,
+            "cumVol": 348847.0,
+            "dayOfYear": 20,
+            "volume": 33933.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 67.0,
+            "cumVol": 350776.0,
+            "dayOfYear": 21,
+            "volume": 1929.0
+          },
+          {
+            "calls": 5.0,
+            "cumCalls": 72.0,
+            "cumVol": 360660.0,
+            "dayOfYear": 22,
+            "volume": 9884.0
+          },
+          {
+            "calls": 5.0,
+            "cumCalls": 77.0,
+            "cumVol": 476829.0,
+            "dayOfYear": 23,
+            "volume": 116169.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 78.0,
+            "cumVol": 476829.0,
+            "dayOfYear": 24,
+            "volume": 0.0
+          },
+          {
+            "calls": 5.0,
+            "cumCalls": 83.0,
+            "cumVol": 496502.0,
+            "dayOfYear": 25,
+            "volume": 19673.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 87.0,
+            "cumVol": 496703.0,
+            "dayOfYear": 26,
+            "volume": 201.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 90.0,
+            "cumVol": 502311.0,
+            "dayOfYear": 27,
+            "volume": 5608.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 93.0,
+            "cumVol": 580450.0,
+            "dayOfYear": 28,
+            "volume": 78139.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 95.0,
+            "cumVol": 580450.0,
+            "dayOfYear": 29,
+            "volume": 0.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 99.0,
+            "cumVol": 589303.0,
+            "dayOfYear": 30,
+            "volume": 8853.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 102.0,
+            "cumVol": 592238.0,
+            "dayOfYear": 31,
+            "volume": 2935.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 103.0,
+            "cumVol": 592238.0,
+            "dayOfYear": 32,
+            "volume": 0.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 105.0,
+            "cumVol": 592238.0,
+            "dayOfYear": 33,
+            "volume": 0.0
+          },
+          {
+            "calls": 7.0,
+            "cumCalls": 112.0,
+            "cumVol": 679318.0,
+            "dayOfYear": 34,
+            "volume": 87080.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 113.0,
+            "cumVol": 681216.0,
+            "dayOfYear": 35,
+            "volume": 1898.0
+          },
+          {
+            "calls": 5.0,
+            "cumCalls": 118.0,
+            "cumVol": 714666.0,
+            "dayOfYear": 36,
+            "volume": 33450.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 121.0,
+            "cumVol": 722196.0,
+            "dayOfYear": 37,
+            "volume": 7530.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 125.0,
+            "cumVol": 724094.0,
+            "dayOfYear": 38,
+            "volume": 1898.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 127.0,
+            "cumVol": 729702.0,
+            "dayOfYear": 39,
+            "volume": 5608.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 130.0,
+            "cumVol": 732722.0,
+            "dayOfYear": 40,
+            "volume": 3020.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 133.0,
+            "cumVol": 758700.0,
+            "dayOfYear": 41,
+            "volume": 25978.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 137.0,
+            "cumVol": 768210.0,
+            "dayOfYear": 42,
+            "volume": 9510.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 141.0,
+            "cumVol": 777401.0,
+            "dayOfYear": 43,
+            "volume": 9191.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 141.0,
+            "cumVol": 777401.0,
+            "dayOfYear": 44,
+            "volume": 0.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 143.0,
+            "cumVol": 777401.0,
+            "dayOfYear": 45,
+            "volume": 0.0
+          },
+          {
+            "calls": 6.0,
+            "cumCalls": 149.0,
+            "cumVol": 779330.0,
+            "dayOfYear": 46,
+            "volume": 1929.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 151.0,
+            "cumVol": 779330.0,
+            "dayOfYear": 47,
+            "volume": 0.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 153.0,
+            "cumVol": 863901.0,
+            "dayOfYear": 48,
+            "volume": 84571.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 156.0,
+            "cumVol": 872578.0,
+            "dayOfYear": 49,
+            "volume": 8677.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 158.0,
+            "cumVol": 880084.0,
+            "dayOfYear": 50,
+            "volume": 7506.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 158.0,
+            "cumVol": 880084.0,
+            "dayOfYear": 51,
+            "volume": 0.0
+          },
+          {
+            "calls": 5.0,
+            "cumCalls": 163.0,
+            "cumVol": 885581.0,
+            "dayOfYear": 52,
+            "volume": 5497.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 167.0,
+            "cumVol": 920960.0,
+            "dayOfYear": 53,
+            "volume": 35379.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 169.0,
+            "cumVol": 924296.0,
+            "dayOfYear": 54,
+            "volume": 3336.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 173.0,
+            "cumVol": 955914.0,
+            "dayOfYear": 55,
+            "volume": 31618.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 174.0,
+            "cumVol": 957914.0,
+            "dayOfYear": 56,
+            "volume": 2000.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 178.0,
+            "cumVol": 965104.0,
+            "dayOfYear": 57,
+            "volume": 7190.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 181.0,
+            "cumVol": 977228.0,
+            "dayOfYear": 58,
+            "volume": 12124.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 184.0,
+            "cumVol": 978231.0,
+            "dayOfYear": 59,
+            "volume": 1003.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 188.0,
+            "cumVol": 983466.0,
+            "dayOfYear": 60,
+            "volume": 5235.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 191.0,
+            "cumVol": 1058754.0,
+            "dayOfYear": 61,
+            "volume": 75288.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 193.0,
+            "cumVol": 1058754.0,
+            "dayOfYear": 62,
+            "volume": 0.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 197.0,
+            "cumVol": 1127466.0,
+            "dayOfYear": 63,
+            "volume": 68712.0
+          },
+          {
+            "calls": 5.0,
+            "cumCalls": 202.0,
+            "cumVol": 1129364.0,
+            "dayOfYear": 64,
+            "volume": 1898.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 205.0,
+            "cumVol": 1130802.0,
+            "dayOfYear": 65,
+            "volume": 1438.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 209.0,
+            "cumVol": 1134853.0,
+            "dayOfYear": 66,
+            "volume": 4051.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 211.0,
+            "cumVol": 1172013.0,
+            "dayOfYear": 67,
+            "volume": 37160.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 214.0,
+            "cumVol": 1173451.0,
+            "dayOfYear": 68,
+            "volume": 1438.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 216.0,
+            "cumVol": 1173451.0,
+            "dayOfYear": 69,
+            "volume": 0.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 220.0,
+            "cumVol": 1188021.0,
+            "dayOfYear": 70,
+            "volume": 14570.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 224.0,
+            "cumVol": 1191817.0,
+            "dayOfYear": 71,
+            "volume": 3796.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 227.0,
+            "cumVol": 1249065.0,
+            "dayOfYear": 72,
+            "volume": 57248.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 230.0,
+            "cumVol": 1259884.0,
+            "dayOfYear": 73,
+            "volume": 10819.0
+          },
+          {
+            "calls": 5.0,
+            "cumCalls": 235.0,
+            "cumVol": 1304069.0,
+            "dayOfYear": 74,
+            "volume": 44185.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 236.0,
+            "cumVol": 1304069.0,
+            "dayOfYear": 75,
+            "volume": 0.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 239.0,
+            "cumVol": 1304069.0,
+            "dayOfYear": 76,
+            "volume": 0.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 243.0,
+            "cumVol": 1309993.0,
+            "dayOfYear": 77,
+            "volume": 5924.0
+          },
+          {
+            "calls": 4.0,
+            "cumCalls": 247.0,
+            "cumVol": 1314693.0,
+            "dayOfYear": 78,
+            "volume": 4700.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 248.0,
+            "cumVol": 1314693.0,
+            "dayOfYear": 79,
+            "volume": 0.0
+          },
+          {
+            "calls": 6.0,
+            "cumCalls": 254.0,
+            "cumVol": 1428628.0,
+            "dayOfYear": 80,
+            "volume": 113935.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 257.0,
+            "cumVol": 1435242.0,
+            "dayOfYear": 81,
+            "volume": 6614.0
+          },
+          {
+            "calls": 5.0,
+            "cumCalls": 262.0,
+            "cumVol": 1442779.0,
+            "dayOfYear": 82,
+            "volume": 7537.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 263.0,
+            "cumVol": 1442779.0,
+            "dayOfYear": 83,
+            "volume": 0.0
+          },
+          {
+            "calls": 3.0,
+            "cumCalls": 266.0,
+            "cumVol": 1442839.0,
+            "dayOfYear": 84,
+            "volume": 60.0
+          }
+        ]
+      },
+      "iso3": "AGO"
+    },
+    "Comoros": {
+      "data": {
+        "2024": [
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 1,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 2,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 3,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 4,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 5,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 6,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 7,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 8,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 9,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 10,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 11,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 12,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 13,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 14,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 15,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 16,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 17,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 18,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 19,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 20,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 21,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 22,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 23,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 24,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 1.0,
+            "cumVol": 5713.0,
+            "dayOfYear": 25,
+            "volume": 5713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 1.0,
+            "cumVol": 5713.0,
+            "dayOfYear": 26,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 1.0,
+            "cumVol": 5713.0,
+            "dayOfYear": 27,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 1.0,
+            "cumVol": 5713.0,
+            "dayOfYear": 28,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 1.0,
+            "cumVol": 5713.0,
+            "dayOfYear": 29,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 1.0,
+            "cumVol": 5713.0,
+            "dayOfYear": 30,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 1.0,
+            "cumVol": 5713.0,
+            "dayOfYear": 31,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 1.0,
+            "cumVol": 5713.0,
+            "dayOfYear": 32,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 1.0,
+            "cumVol": 5713.0,
+            "dayOfYear": 33,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 1.0,
+            "cumVol": 5713.0,
+            "dayOfYear": 34,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 1.0,
+            "cumVol": 5713.0,
+            "dayOfYear": 35,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 2.0,
+            "cumVol": 11426.0,
+            "dayOfYear": 36,
+            "volume": 5713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 11426.0,
+            "dayOfYear": 37,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 11426.0,
+            "dayOfYear": 38,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 11426.0,
+            "dayOfYear": 39,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 11426.0,
+            "dayOfYear": 40,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 11426.0,
+            "dayOfYear": 41,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 11426.0,
+            "dayOfYear": 42,
+            "volume": 0.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 4.0,
+            "cumVol": 21113.0,
+            "dayOfYear": 43,
+            "volume": 9687.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 21113.0,
+            "dayOfYear": 44,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 21113.0,
+            "dayOfYear": 45,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 21113.0,
+            "dayOfYear": 46,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 5.0,
+            "cumVol": 34202.0,
+            "dayOfYear": 47,
+            "volume": 13089.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 34202.0,
+            "dayOfYear": 48,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 34202.0,
+            "dayOfYear": 49,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 34202.0,
+            "dayOfYear": 50,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 34202.0,
+            "dayOfYear": 51,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 34202.0,
+            "dayOfYear": 52,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 34202.0,
+            "dayOfYear": 53,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 34202.0,
+            "dayOfYear": 54,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 34202.0,
+            "dayOfYear": 55,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 34202.0,
+            "dayOfYear": 56,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 34202.0,
+            "dayOfYear": 57,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 34202.0,
+            "dayOfYear": 58,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 59,
+            "volume": 190.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 60,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 61,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 62,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 63,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 64,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 65,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 66,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 67,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 68,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 69,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 70,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 71,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 72,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 73,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 74,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 75,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 76,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 34392.0,
+            "dayOfYear": 77,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 7.0,
+            "cumVol": 40298.0,
+            "dayOfYear": 78,
+            "volume": 5906.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 40298.0,
+            "dayOfYear": 79,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 40298.0,
+            "dayOfYear": 80,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 40298.0,
+            "dayOfYear": 81,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 40298.0,
+            "dayOfYear": 82,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 8.0,
+            "cumVol": 46011.0,
+            "dayOfYear": 83,
+            "volume": 5713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 8.0,
+            "cumVol": 46011.0,
+            "dayOfYear": 84,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 8.0,
+            "cumVol": 46011.0,
+            "dayOfYear": 85,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 8.0,
+            "cumVol": 46011.0,
+            "dayOfYear": 86,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 8.0,
+            "cumVol": 46011.0,
+            "dayOfYear": 87,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 8.0,
+            "cumVol": 46011.0,
+            "dayOfYear": 88,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 9.0,
+            "cumVol": 51724.0,
+            "dayOfYear": 89,
+            "volume": 5713.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 10.0,
+            "cumVol": 57630.0,
+            "dayOfYear": 90,
+            "volume": 5906.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 10.0,
+            "cumVol": 57630.0,
+            "dayOfYear": 91,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 10.0,
+            "cumVol": 57630.0,
+            "dayOfYear": 92,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 10.0,
+            "cumVol": 57630.0,
+            "dayOfYear": 93,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 10.0,
+            "cumVol": 57630.0,
+            "dayOfYear": 94,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 10.0,
+            "cumVol": 57630.0,
+            "dayOfYear": 95,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 10.0,
+            "cumVol": 57630.0,
+            "dayOfYear": 96,
+            "volume": 0.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 12.0,
+            "cumVol": 67837.0,
+            "dayOfYear": 97,
+            "volume": 10207.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 67837.0,
+            "dayOfYear": 98,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 67837.0,
+            "dayOfYear": 99,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 13.0,
+            "cumVol": 75716.0,
+            "dayOfYear": 100,
+            "volume": 7879.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 75716.0,
+            "dayOfYear": 101,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 75716.0,
+            "dayOfYear": 102,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 75716.0,
+            "dayOfYear": 103,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 75716.0,
+            "dayOfYear": 104,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 75716.0,
+            "dayOfYear": 105,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 106,
+            "volume": 5713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 107,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 108,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 109,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 110,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 111,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 112,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 113,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 114,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 115,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 116,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 117,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 118,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 119,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 120,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 121,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 122,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 123,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 124,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 125,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 126,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 127,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 128,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 129,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 130,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 131,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 132,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 133,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 134,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 81429.0,
+            "dayOfYear": 135,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 15.0,
+            "cumVol": 84490.0,
+            "dayOfYear": 136,
+            "volume": 3061.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 15.0,
+            "cumVol": 84490.0,
+            "dayOfYear": 137,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 15.0,
+            "cumVol": 84490.0,
+            "dayOfYear": 138,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 15.0,
+            "cumVol": 84490.0,
+            "dayOfYear": 139,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 140,
+            "volume": 8816.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 141,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 142,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 143,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 144,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 145,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 146,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 147,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 148,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 149,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 150,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 151,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 152,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 153,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 154,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 155,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 156,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 157,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 158,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 159,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 160,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 161,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 16.0,
+            "cumVol": 93306.0,
+            "dayOfYear": 162,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 163,
+            "volume": 2011.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 164,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 165,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 166,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 167,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 168,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 169,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 170,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 171,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 172,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 173,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 174,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 175,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 176,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 177,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 178,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 179,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 180,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 181,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 182,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 95317.0,
+            "dayOfYear": 183,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 18.0,
+            "cumVol": 99109.0,
+            "dayOfYear": 184,
+            "volume": 3792.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 18.0,
+            "cumVol": 99109.0,
+            "dayOfYear": 185,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 18.0,
+            "cumVol": 99109.0,
+            "dayOfYear": 186,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 18.0,
+            "cumVol": 99109.0,
+            "dayOfYear": 187,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 188,
+            "volume": 8581.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 189,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 190,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 191,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 192,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 193,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 194,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 195,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 196,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 197,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 198,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 199,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 200,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 201,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 202,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 203,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 204,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 205,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 206,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 207,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 208,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 209,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 210,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 211,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 212,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 213,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 214,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 215,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 216,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 217,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 218,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 219,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 220,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 221,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 222,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 19.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 223,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 20.0,
+            "cumVol": 107690.0,
+            "dayOfYear": 224,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 21.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 225,
+            "volume": 12350.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 21.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 226,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 21.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 227,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 228,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 229,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 230,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 231,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 232,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 233,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 234,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 235,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 236,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 237,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 238,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 239,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 240,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 241,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 242,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 243,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 244,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 245,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 246,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 247,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 248,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 249,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 250,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 251,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 252,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 253,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 254,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 255,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 256,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 120040.0,
+            "dayOfYear": 257,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 258,
+            "volume": 5713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 259,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 260,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 261,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 262,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 263,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 264,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 265,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 266,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 267,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 268,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 269,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 270,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 271,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 272,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 273,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 125753.0,
+            "dayOfYear": 274,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 24.0,
+            "cumVol": 131659.0,
+            "dayOfYear": 275,
+            "volume": 5906.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 24.0,
+            "cumVol": 131659.0,
+            "dayOfYear": 276,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 24.0,
+            "cumVol": 131659.0,
+            "dayOfYear": 277,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 24.0,
+            "cumVol": 131659.0,
+            "dayOfYear": 278,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 279,
+            "volume": 12350.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 280,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 281,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 282,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 283,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 284,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 285,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 286,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 287,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 288,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 289,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 290,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 291,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 292,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 293,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 144009.0,
+            "dayOfYear": 294,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 26.0,
+            "cumVol": 149722.0,
+            "dayOfYear": 295,
+            "volume": 5713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 26.0,
+            "cumVol": 149722.0,
+            "dayOfYear": 296,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 26.0,
+            "cumVol": 149722.0,
+            "dayOfYear": 297,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 26.0,
+            "cumVol": 149722.0,
+            "dayOfYear": 298,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 26.0,
+            "cumVol": 149722.0,
+            "dayOfYear": 299,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 26.0,
+            "cumVol": 149722.0,
+            "dayOfYear": 300,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 26.0,
+            "cumVol": 149722.0,
+            "dayOfYear": 301,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 27.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 302,
+            "volume": 5713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 27.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 303,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 27.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 304,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 27.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 305,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 27.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 306,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 27.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 307,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 27.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 308,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 27.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 309,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 27.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 310,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 27.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 311,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 27.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 312,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 28.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 313,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 28.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 314,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 28.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 315,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 28.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 316,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 28.0,
+            "cumVol": 155435.0,
+            "dayOfYear": 317,
+            "volume": 0.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 30.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 318,
+            "volume": 18063.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 30.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 319,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 30.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 320,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 30.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 321,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 322,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 323,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 324,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 325,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 326,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 327,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 328,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 329,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 330,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 331,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 332,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 333,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 334,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 335,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 336,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 337,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 338,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 339,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 340,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 341,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 342,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 343,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 344,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 345,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 346,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 31.0,
+            "cumVol": 173498.0,
+            "dayOfYear": 347,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 348,
+            "volume": 5713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 349,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 350,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 351,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 352,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 353,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 354,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 355,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 356,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 357,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 358,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 359,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 360,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 361,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 362,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 363,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 364,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 365,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 179211.0,
+            "dayOfYear": 366,
+            "volume": 0.0
+          }
+        ],
+        "2025": [
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 1,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 2,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 3,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 4,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 1.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 5,
+            "volume": 12350.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 1.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 6,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 1.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 7,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 8,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 9,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 10,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 11,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 12,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 13,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 14,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 15,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 16,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 17,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 18,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 19,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 20,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 21,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 22,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 12350.0,
+            "dayOfYear": 23,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 3.0,
+            "cumVol": 18063.0,
+            "dayOfYear": 24,
+            "volume": 5713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 18063.0,
+            "dayOfYear": 25,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 18063.0,
+            "dayOfYear": 26,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 18063.0,
+            "dayOfYear": 27,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 18063.0,
+            "dayOfYear": 28,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 18063.0,
+            "dayOfYear": 29,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 18063.0,
+            "dayOfYear": 30,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 18063.0,
+            "dayOfYear": 31,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 18063.0,
+            "dayOfYear": 32,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 18063.0,
+            "dayOfYear": 33,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 18063.0,
+            "dayOfYear": 34,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 18063.0,
+            "dayOfYear": 35,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 4.0,
+            "cumVol": 23776.0,
+            "dayOfYear": 36,
+            "volume": 5713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 23776.0,
+            "dayOfYear": 37,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 23776.0,
+            "dayOfYear": 38,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 23776.0,
+            "dayOfYear": 39,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 23776.0,
+            "dayOfYear": 40,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 23776.0,
+            "dayOfYear": 41,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 5.0,
+            "cumVol": 29682.0,
+            "dayOfYear": 42,
+            "volume": 5906.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 29682.0,
+            "dayOfYear": 43,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 29682.0,
+            "dayOfYear": 44,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 5.0,
+            "cumVol": 29682.0,
+            "dayOfYear": 45,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 46,
+            "volume": 12350.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 47,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 48,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 49,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 50,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 51,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 52,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 53,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 54,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 55,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 56,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 57,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 58,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 59,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 60,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 61,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 62,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 63,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 64,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 65,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 66,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 67,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 68,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 69,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 70,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 71,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 72,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 73,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 74,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 75,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 76,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 77,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 78,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 79,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 80,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 81,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 82,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 83,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 42032.0,
+            "dayOfYear": 84,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 8.0,
+            "cumVol": 47745.0,
+            "dayOfYear": 85,
+            "volume": 5713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 8.0,
+            "cumVol": 47745.0,
+            "dayOfYear": 86,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 9.0,
+            "cumVol": 47745.0,
+            "dayOfYear": 87,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 9.0,
+            "cumVol": 47745.0,
+            "dayOfYear": 88,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 10.0,
+            "cumVol": 53458.0,
+            "dayOfYear": 89,
+            "volume": 5713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 10.0,
+            "cumVol": 53458.0,
+            "dayOfYear": 90,
+            "volume": 0.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 91,
+            "volume": 5713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 92,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 93,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 94,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 95,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 96,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 97,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 98,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 99,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 100,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 101,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 102,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 103,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 104,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 105,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 106,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 107,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 108,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 109,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 110,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 111,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 112,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 113,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 114,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 115,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 116,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 117,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 118,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 119,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 120,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 121,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 122,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 123,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 124,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 125,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 59171.0,
+            "dayOfYear": 126,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 13.0,
+            "cumVol": 63828.0,
+            "dayOfYear": 127,
+            "volume": 4657.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 63828.0,
+            "dayOfYear": 128,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 63828.0,
+            "dayOfYear": 129,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 14.0,
+            "cumVol": 71140.0,
+            "dayOfYear": 130,
+            "volume": 7312.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 71140.0,
+            "dayOfYear": 131,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 71140.0,
+            "dayOfYear": 132,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 71140.0,
+            "dayOfYear": 133,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 14.0,
+            "cumVol": 71140.0,
+            "dayOfYear": 134,
+            "volume": 0.0
+          }
+        ]
+      },
+      "iso3": "COM"
+    },
+    "Democratic Republic of the Congo": {
+      "data": {
+        "2024": [
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 1,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 2,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 3,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 0.0,
+            "cumVol": 0.0,
+            "dayOfYear": 4,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 1.0,
+            "cumVol": 0.0,
+            "dayOfYear": 5,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 2.0,
+            "cumVol": 0.0,
+            "dayOfYear": 6,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 0.0,
+            "dayOfYear": 7,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 0.0,
+            "dayOfYear": 8,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 0.0,
+            "dayOfYear": 9,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 0.0,
+            "dayOfYear": 10,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 0.0,
+            "dayOfYear": 11,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 2.0,
+            "cumVol": 0.0,
+            "dayOfYear": 12,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 3.0,
+            "cumVol": 0.0,
+            "dayOfYear": 13,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 0.0,
+            "dayOfYear": 14,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 0.0,
+            "dayOfYear": 15,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 0.0,
+            "dayOfYear": 16,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 0.0,
+            "dayOfYear": 17,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 0.0,
+            "dayOfYear": 18,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 3.0,
+            "cumVol": 0.0,
+            "dayOfYear": 19,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 4.0,
+            "cumVol": 0.0,
+            "dayOfYear": 20,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 0.0,
+            "dayOfYear": 21,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 0.0,
+            "dayOfYear": 22,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 0.0,
+            "dayOfYear": 23,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 0.0,
+            "dayOfYear": 24,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 0.0,
+            "dayOfYear": 25,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 0.0,
+            "dayOfYear": 26,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 0.0,
+            "dayOfYear": 27,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 0.0,
+            "dayOfYear": 28,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 0.0,
+            "dayOfYear": 29,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 4.0,
+            "cumVol": 0.0,
+            "dayOfYear": 30,
+            "volume": 0.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 6.0,
+            "cumVol": 0.0,
+            "dayOfYear": 31,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 0.0,
+            "dayOfYear": 32,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 0.0,
+            "dayOfYear": 33,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 6.0,
+            "cumVol": 0.0,
+            "dayOfYear": 34,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 7.0,
+            "cumVol": 582.0,
+            "dayOfYear": 35,
+            "volume": 582.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 582.0,
+            "dayOfYear": 36,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 582.0,
+            "dayOfYear": 37,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 582.0,
+            "dayOfYear": 38,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 582.0,
+            "dayOfYear": 39,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 7.0,
+            "cumVol": 582.0,
+            "dayOfYear": 40,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 8.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 41,
+            "volume": 2474.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 8.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 42,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 8.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 43,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 8.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 44,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 8.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 45,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 8.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 46,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 8.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 47,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 9.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 48,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 10.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 49,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 10.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 50,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 10.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 51,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 10.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 52,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 11.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 53,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 12.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 54,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 55,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 56,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 57,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 58,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 59,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 60,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 12.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 61,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 13.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 62,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 63,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 64,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 65,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 66,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 67,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 68,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 69,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 70,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 71,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 72,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 73,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 13.0,
+            "cumVol": 3056.0,
+            "dayOfYear": 74,
+            "volume": 0.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 15.0,
+            "cumVol": 25443.0,
+            "dayOfYear": 75,
+            "volume": 22387.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 15.0,
+            "cumVol": 25443.0,
+            "dayOfYear": 76,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 15.0,
+            "cumVol": 25443.0,
+            "dayOfYear": 77,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 16.0,
+            "cumVol": 25443.0,
+            "dayOfYear": 78,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 17.0,
+            "cumVol": 25443.0,
+            "dayOfYear": 79,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 25443.0,
+            "dayOfYear": 80,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 25443.0,
+            "dayOfYear": 81,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 25443.0,
+            "dayOfYear": 82,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 17.0,
+            "cumVol": 25443.0,
+            "dayOfYear": 83,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 18.0,
+            "cumVol": 29156.0,
+            "dayOfYear": 84,
+            "volume": 3713.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 18.0,
+            "cumVol": 29156.0,
+            "dayOfYear": 85,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 18.0,
+            "cumVol": 29156.0,
+            "dayOfYear": 86,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 18.0,
+            "cumVol": 29156.0,
+            "dayOfYear": 87,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 19.0,
+            "cumVol": 33236.0,
+            "dayOfYear": 88,
+            "volume": 4080.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 20.0,
+            "cumVol": 33236.0,
+            "dayOfYear": 89,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 21.0,
+            "cumVol": 33236.0,
+            "dayOfYear": 90,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 22.0,
+            "cumVol": 37107.0,
+            "dayOfYear": 91,
+            "volume": 3871.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 37107.0,
+            "dayOfYear": 92,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 37107.0,
+            "dayOfYear": 93,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 37107.0,
+            "dayOfYear": 94,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 37107.0,
+            "dayOfYear": 95,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 37107.0,
+            "dayOfYear": 96,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 22.0,
+            "cumVol": 37107.0,
+            "dayOfYear": 97,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 23.0,
+            "cumVol": 37107.0,
+            "dayOfYear": 98,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 37107.0,
+            "dayOfYear": 99,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 37107.0,
+            "dayOfYear": 100,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 23.0,
+            "cumVol": 37107.0,
+            "dayOfYear": 101,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 24.0,
+            "cumVol": 37107.0,
+            "dayOfYear": 102,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 24.0,
+            "cumVol": 37107.0,
+            "dayOfYear": 103,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 104,
+            "volume": 2362.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 105,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 106,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 107,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 108,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 109,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 110,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 111,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 112,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 113,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 114,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 115,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 116,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 117,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 25.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 118,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 26.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 119,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 26.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 120,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 27.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 121,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 27.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 122,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 27.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 123,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 27.0,
+            "cumVol": 39469.0,
+            "dayOfYear": 124,
+            "volume": 0.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 29.0,
+            "cumVol": 68812.0,
+            "dayOfYear": 125,
+            "volume": 29343.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 30.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 126,
+            "volume": 11248.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 30.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 127,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 30.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 128,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 30.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 129,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 30.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 130,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 30.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 131,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 30.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 132,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 30.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 133,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 30.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 134,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 30.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 135,
+            "volume": 0.0
+          },
+          {
+            "calls": 2.0,
+            "cumCalls": 32.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 136,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 32.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 137,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 33.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 138,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 33.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 139,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 33.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 140,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 33.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 141,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 33.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 142,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 33.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 143,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 34.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 144,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 34.0,
+            "cumVol": 80060.0,
+            "dayOfYear": 145,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 35.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 146,
+            "volume": 582.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 35.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 147,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 35.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 148,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 35.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 149,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 150,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 151,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 152,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 153,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 154,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 155,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 156,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 157,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 158,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 159,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 160,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 161,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 162,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 163,
+            "volume": 0.0
+          },
+          {
+            "calls": 0.0,
+            "cumCalls": 36.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 164,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 37.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 165,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 38.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 166,
+            "volume": 0.0
+          },
+          {
+            "calls": 1.0,
+            "cumCalls": 39.0,
+            "cumVol": 80642.0,
+            "dayOfYear": 167,
+            "volume": 0.0
+          }
+        ]
+      },
+      "iso3": "COD"
+    },
     "Eritrea": {
       "data": {
         "2024": [
@@ -40090,11 +45370,8 @@
     }
   },
   "errors": {
-    "Angola": "ArcGIS error for AGO: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Botswana": "ArcGIS error for BWA: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Burundi": "ArcGIS error for BDI: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Comoros": "ArcGIS error for COM: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Democratic Republic of the Congo": "ArcGIS error for COD: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Botswana": "No records returned",
+    "Burundi": "No records returned",
     "Eswatini": "No records returned",
     "Ethiopia": "No records returned",
     "Lesotho": "No records returned",
@@ -40105,7 +45382,7 @@
     "Zambia": "No records returned",
     "Zimbabwe": "No records returned"
   },
-  "last_updated_utc": "2026-05-16T02:52:11+00:00",
+  "last_updated_utc": "2026-05-16T02:59:07+00:00",
   "min_year": 2024,
   "source": "ArcGIS Daily_Ports_Data FeatureServer",
   "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Ports_Data/FeatureServer/0/query"
