@@ -137,7 +137,11 @@ def get_ports_for_country_year(iso3: str, year: int) -> list[str]:
     }
     payload = get_json(params)
     features = payload.get("features", []) or []
-    ports = list(set(f.get("attributes", {}).get("portname") for f in features if f.get("attributes", {}).get("portname")))
+    ports = list(set(
+        f.get("attributes", {}).get("portname", "").strip() 
+        for f in features 
+        if f.get("attributes", {}).get("portname", "").strip()
+    ))
     ports.sort()
     return ports
 
@@ -146,16 +150,17 @@ def fetch_port_year_features(iso3: str, portname: str, year: int) -> list[dict[s
     """Fetch all records for one port-year."""
     features: list[dict[str, Any]] = []
     offset = 0
+    # Escape single quotes in portname for ArcGIS WHERE clause
+    escaped_portname = portname.replace("'", "''")
     while True:
         params = {
-            "where": f"ISO3='{iso3}' AND portname='{portname}' AND year = {year}",
+            "where": f"ISO3='{iso3}' AND portname='{escaped_portname}' AND year = {year}",
             "outFields": "date,year,country,ISO3,portname,portcalls_tanker,import_tanker",
             "returnGeometry": "false",
             "f": "json",
             "resultRecordCount": PAGE_SIZE,
             "resultOffset": offset,
             "orderByFields": "date ASC",
-            "maxRecordCountFactor": 5,
         }
         payload = get_json(params)
         if payload.get("error"):
@@ -228,9 +233,13 @@ def main() -> int:
                 year_record_count = 0
                 
                 for port in ports:
-                    features = fetch_port_year_features(iso3, port, year)
-                    year_record_count += len(features)
-                    merge_year_data(country_data, aggregate_features(features, fallback_year=year))
+                    try:
+                        features = fetch_port_year_features(iso3, port, year)
+                        year_record_count += len(features)
+                        merge_year_data(country_data, aggregate_features(features, fallback_year=year))
+                    except Exception as port_exc:
+                        print(f"    Port '{port}' ({len(port)} chars): {port_exc}", file=sys.stderr)
+                        raise
                 
                 record_count_by_year[str(year)] = year_record_count
                 
