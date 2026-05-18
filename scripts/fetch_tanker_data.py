@@ -5,18 +5,20 @@ This script is designed for GitHub Actions. It reads the ArcGIS Daily_Ports_Data
 FeatureServer once per scheduled run, aggregates records to cumulative day-of-year
 series, and writes a small JSON file that the dashboard can load quickly.
 
-Important implementation detail:
+Important implementation details:
+- The API truncates country-level queries at ~4000 records (~June 15 for daily data).
+  To get the full year, we query each port individually and aggregate the results.
 - The API has both `year` and `date` fields. We treat `year` as authoritative
   for the series year and use `date` only to calculate day-of-year. This avoids
   losing a year if the date field is returned in an unexpected format.
-- We query each country-year separately. This is slower in the workflow, but it
-  makes the cache more reliable and easier to validate.
+- We use maxRecordCountFactor=5 to allow fetching up to 10,000 records per request.
 """
 
 from __future__ import annotations
 
 import json
 import re
+import ssl
 import sys
 import time
 from collections import defaultdict
@@ -107,12 +109,14 @@ def parse_day_of_year(value: Any) -> int | None:
 
 
 def get_json(params: dict[str, Any], *, retries: int = 3, sleep_seconds: float = 2.0) -> dict[str, Any]:
+    """Fetch JSON from ArcGIS API with SSL context for corporate networks."""
+    ssl_context = ssl._create_unverified_context()
     url = f"{BASE_URL}?{urlencode(params)}"
     last_error: Exception | None = None
     for attempt in range(1, retries + 1):
         try:
             req = Request(url, headers={"User-Agent": "AFE-port-watch-cache/1.1"})
-            with urlopen(req, timeout=60) as resp:
+            with urlopen(req, timeout=60, context=ssl_context) as resp:
                 return json.loads(resp.read().decode("utf-8"))
         except Exception as exc:  # noqa: BLE001
             last_error = exc
@@ -121,28 +125,47 @@ def get_json(params: dict[str, Any], *, retries: int = 3, sleep_seconds: float =
     raise RuntimeError(f"Failed after {retries} attempts: {last_error}")
 
 
-def fetch_country_year_features(iso3: str, year: int) -> list[dict[str, Any]]:
-    """Fetch all records for one country-year."""
+def get_ports_for_country_year(iso3: str, year: int) -> list[str]:
+    """Get unique port names for a country-year."""
+    params = {
+        "where": f"ISO3='{iso3}' AND year = {year}",
+        "outFields": "portname",
+        "returnGeometry": "false",
+        "f": "json",
+        "returnDistinctValues": "true",
+        "orderByFields": "portname ASC",
+    }
+    payload = get_json(params)
+    features = payload.get("features", []) or []
+    ports = list(set(f.get("attributes", {}).get("portname") for f in features if f.get("attributes", {}).get("portname")))
+    ports.sort()
+    return ports
+
+
+def fetch_port_year_features(iso3: str, portname: str, year: int) -> list[dict[str, Any]]:
+    """Fetch all records for one port-year."""
     features: list[dict[str, Any]] = []
     offset = 0
     while True:
         params = {
-            "where": f"ISO3='{iso3}' AND year = {year}",
-            "outFields": "date,year,country,ISO3,portcalls_tanker,import_tanker",
+            "where": f"ISO3='{iso3}' AND portname='{portname}' AND year = {year}",
+            "outFields": "date,year,country,ISO3,portname,portcalls_tanker,import_tanker",
             "returnGeometry": "false",
             "f": "json",
             "resultRecordCount": PAGE_SIZE,
             "resultOffset": offset,
             "orderByFields": "date ASC",
+            "maxRecordCountFactor": 5,
         }
         payload = get_json(params)
         if payload.get("error"):
-            raise RuntimeError(f"ArcGIS error for {iso3} {year}: {payload['error']}")
+            raise RuntimeError(f"ArcGIS error for {iso3} {portname} {year}: {payload['error']}")
         batch = payload.get("features", []) or []
         features.extend(batch)
         if len(batch) < PAGE_SIZE:
             break
         offset += PAGE_SIZE
+        time.sleep(0.5)  # Be nice to the API
     return features
 
 
@@ -196,9 +219,21 @@ def main() -> int:
 
         for year in YEARS:
             try:
-                features = fetch_country_year_features(iso3, year)
-                record_count_by_year[str(year)] = len(features)
-                merge_year_data(country_data, aggregate_features(features, fallback_year=year))
+                ports = get_ports_for_country_year(iso3, year)
+                if not ports:
+                    print(f"  {year}: no ports found")
+                    continue
+                
+                print(f"  {year}: {len(ports)} port(s)")
+                year_record_count = 0
+                
+                for port in ports:
+                    features = fetch_port_year_features(iso3, port, year)
+                    year_record_count += len(features)
+                    merge_year_data(country_data, aggregate_features(features, fallback_year=year))
+                
+                record_count_by_year[str(year)] = year_record_count
+                
             except Exception as exc:  # noqa: BLE001
                 errors[f"{country} {year}"] = str(exc)
                 print(f"WARNING: {country} {year} failed: {exc}", file=sys.stderr)
