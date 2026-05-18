@@ -1,18 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch and cache AFE tanker port-call data for the static dashboard.
-
-This script is designed for GitHub Actions. It reads the ArcGIS Daily_Ports_Data
-FeatureServer once per scheduled run, aggregates records to cumulative day-of-year
-series, and writes a small JSON file that the dashboard can load quickly.
-
-Important implementation details:
-- The API truncates country-level queries at ~4000 records (~June 15 for daily data).
-  To get the full year, we query each port individually and aggregate the results.
-- The API has both `year` and `date` fields. We treat `year` as authoritative
-  for the series year and use `date` only to calculate day-of-year. This avoids
-  losing a year if the date field is returned in an unexpected format.
-- We use maxRecordCountFactor=5 to allow fetching up to 10,000 records per request.
-"""
+"""Fetch and cache AFE tanker port-call data for the static dashboard."""
 
 from __future__ import annotations
 
@@ -28,165 +15,156 @@ from typing import Any
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
-BASE_URL = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Ports_Data/FeatureServer/0/query"
+
+BASE_URL = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query"
 OUTFILE = Path("dashboard/data/tanker_data.json")
+
 MIN_YEAR = 2024
 MAX_YEAR = datetime.now(timezone.utc).year
 YEARS = list(range(MIN_YEAR, MAX_YEAR + 1))
 PAGE_SIZE = 2000
 
+
 AFE_COUNTRIES = {
     "Angola": "AGO",
-    "Burundi": "BDI",
     "Botswana": "BWA",
-    "Democratic Republic of the Congo": "COD",
+    "Burundi": "BDI",
     "Comoros": "COM",
+    "Congo, Dem. Rep.": "COD",
     "Eritrea": "ERI",
+    "Eswatini": "SWZ",
     "Ethiopia": "ETH",
     "Kenya": "KEN",
     "Lesotho": "LSO",
     "Madagascar": "MDG",
-    "Mozambique": "MOZ",
-    "Mauritius": "MUS",
     "Malawi": "MWI",
+    "Mauritius": "MUS",
+    "Mozambique": "MOZ",
     "Namibia": "NAM",
     "Rwanda": "RWA",
-    "Sudan": "SDN",
-    "Somalia": "SOM",
-    "South Sudan": "SSD",
-    "Sao Tome and Principe": "STP",
-    "Eswatini": "SWZ",
     "Seychelles": "SYC",
+    "Somalia": "SOM",
+    "South Africa": "ZAF",
+    "South Sudan": "SSD",
+    "Sudan": "SDN",
     "Tanzania": "TZA",
     "Uganda": "UGA",
-    "South Africa": "ZAF",
     "Zambia": "ZMB",
     "Zimbabwe": "ZWE",
 }
 
 
-def coerce_year(value: Any) -> int | None:
-    """Return a sensible year from API values."""
-    try:
-        year = int(float(value))
-        if 1900 <= year <= 2200:
-            return year
-    except Exception:
-        pass
-    return None
-
-
 def parse_day_of_year(value: Any) -> int | None:
-    """Return day-of-year from ArcGIS date values.
-
-    Supports epoch milliseconds, epoch seconds, ISO date strings, and compact
-    YYYYMMDD values. Returns None when the date cannot be parsed.
-    """
     if value in (None, ""):
         return None
 
     try:
-        # Numeric dates may be epoch ms, epoch seconds, or compact YYYYMMDD.
-        if isinstance(value, (int, float)) or re.fullmatch(r"\d+(\.0+)?", str(value).strip()):
+        text = str(value).strip()
+
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", text):
+            dt = datetime.strptime(text, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        elif isinstance(value, (int, float)) or re.fullmatch(r"\d+(\.0+)?", text):
             number = int(float(value))
-            text = str(number)
-            if len(text) == 8 and 1900 <= int(text[:4]) <= 2200:
-                dt = datetime.strptime(text, "%Y%m%d").replace(tzinfo=timezone.utc)
+            number_text = str(number)
+
+            if len(number_text) == 8:
+                dt = datetime.strptime(number_text, "%Y%m%d").replace(tzinfo=timezone.utc)
             else:
                 timestamp = number / 1000 if number > 10_000_000_000 else number
                 dt = datetime.fromtimestamp(timestamp, tz=timezone.utc)
         else:
-            text = str(value).strip().replace("Z", "+00:00")
-            dt = datetime.fromisoformat(text)
+            dt = datetime.fromisoformat(text.replace("Z", "+00:00"))
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
             else:
                 dt = dt.astimezone(timezone.utc)
+
         day = int(dt.strftime("%j"))
         return day if 1 <= day <= 366 else None
+
     except Exception:
         return None
 
 
-def get_json(params: dict[str, Any], *, retries: int = 3, sleep_seconds: float = 2.0) -> dict[str, Any]:
-    """Fetch JSON from ArcGIS API with SSL context for corporate networks."""
+def get_json(
+    params: dict[str, Any],
+    retries: int = 3,
+    sleep_seconds: float = 2.0,
+) -> dict[str, Any]:
     ssl_context = ssl._create_unverified_context()
     url = f"{BASE_URL}?{urlencode(params)}"
     last_error: Exception | None = None
+
     for attempt in range(1, retries + 1):
         try:
-            req = Request(url, headers={"User-Agent": "AFE-port-watch-cache/1.1"})
-            with urlopen(req, timeout=60, context=ssl_context) as resp:
+            req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urlopen(req, timeout=120, context=ssl_context) as resp:
                 return json.loads(resp.read().decode("utf-8"))
-        except Exception as exc:  # noqa: BLE001
+        except Exception as exc:
             last_error = exc
             if attempt < retries:
                 time.sleep(sleep_seconds * attempt)
+
     raise RuntimeError(f"Failed after {retries} attempts: {last_error}")
 
 
-def get_ports_for_country_year(iso3: str, year: int) -> list[str]:
-    """Get unique port names for a country-year."""
-    params = {
-        "where": f"ISO3='{iso3}' AND year = {year}",
-        "outFields": "portname",
-        "returnGeometry": "false",
-        "f": "json",
-        "returnDistinctValues": "true",
-        "orderByFields": "portname ASC",
-    }
-    payload = get_json(params)
-    features = payload.get("features", []) or []
-    ports = list(set(
-        f.get("attributes", {}).get("portname", "").strip() 
-        for f in features 
-        if f.get("attributes", {}).get("portname", "").strip()
-    ))
-    ports.sort()
-    return ports
-
-
-def fetch_port_year_features(iso3: str, portname: str, year: int) -> list[dict[str, Any]]:
-    """Fetch all records for one port-year."""
+def fetch_country_year_features(iso3: str, year: int) -> list[dict[str, Any]]:
     features: list[dict[str, Any]] = []
     offset = 0
-    # Escape single quotes in portname for ArcGIS WHERE clause
-    escaped_portname = portname.replace("'", "''")
+
     while True:
         params = {
-            "where": f"ISO3='{iso3}' AND portname='{escaped_portname}' AND year = {year}",
+            "where": f"ISO3 = '{iso3}' AND year = {year}",
             "outFields": "date,year,country,ISO3,portname,portcalls_tanker,import_tanker",
             "returnGeometry": "false",
+            "outSR": "4326",
             "f": "json",
             "resultRecordCount": PAGE_SIZE,
             "resultOffset": offset,
             "orderByFields": "date ASC",
         }
+
         payload = get_json(params)
+
         if payload.get("error"):
-            raise RuntimeError(f"ArcGIS error for {iso3} {portname} {year}: {payload['error']}")
+            raise RuntimeError(f"ArcGIS error for {iso3} {year}: {payload['error']}")
+
         batch = payload.get("features", []) or []
         features.extend(batch)
-        if len(batch) < PAGE_SIZE:
+
+        print(f"    offset {offset}: {len(batch)} records")
+
+        if not payload.get("exceededTransferLimit") or len(batch) == 0:
             break
+
         offset += PAGE_SIZE
-        time.sleep(0.5)  # Be nice to the API
+        time.sleep(0.3)
+
     return features
 
 
-def aggregate_features(features: list[dict[str, Any]], fallback_year: int | None = None) -> dict[str, list[dict[str, Any]]]:
-    daily: dict[tuple[int, int], dict[str, float]] = defaultdict(lambda: {"calls": 0.0, "volume": 0.0})
+def aggregate_features(
+    features: list[dict[str, Any]],
+    fallback_year: int,
+) -> dict[str, list[dict[str, Any]]]:
+    daily: dict[tuple[int, int], dict[str, float]] = defaultdict(
+        lambda: {"calls": 0.0, "volume": 0.0}
+    )
 
     for feature in features:
         attr = feature.get("attributes", {}) or {}
-        year = coerce_year(attr.get("year")) or fallback_year
+
+        year = int(attr.get("year") or fallback_year)
         day = parse_day_of_year(attr.get("date"))
-        if not year or not day or day < 1 or day > 366:
+
+        if not day:
             continue
+
         daily[(year, day)]["calls"] += float(attr.get("portcalls_tanker") or 0)
         daily[(year, day)]["volume"] += float(attr.get("import_tanker") or 0)
 
     by_year: dict[str, list[dict[str, Any]]] = defaultdict(list)
+
     for (year, day), values in sorted(daily.items()):
         by_year[str(year)].append(
             {
@@ -199,62 +177,68 @@ def aggregate_features(features: list[dict[str, Any]], fallback_year: int | None
     for rows in by_year.values():
         cum_calls = 0.0
         cum_volume = 0.0
+
         for row in rows:
             cum_calls += row["calls"]
             cum_volume += row["volume"]
+
             row["cumCalls"] = round(cum_calls, 6)
             row["cumVol"] = round(cum_volume, 6)
 
     return dict(by_year)
 
 
-def merge_year_data(target: dict[str, list[dict[str, Any]]], source: dict[str, list[dict[str, Any]]]) -> None:
-    for year, rows in source.items():
-        target[year] = rows
-
-
 def main() -> int:
+    print("=" * 70)
+    print("Fetching PortWatch tanker data for AFE countries")
+    print("=" * 70)
+
     countries: dict[str, Any] = {}
     errors: dict[str, str] = {}
+    total_records_raw = 0
 
     for country, iso3 in sorted(AFE_COUNTRIES.items()):
-        print(f"Fetching {country} ({iso3}) ...")
+        print(f"\n{country} ({iso3})")
+
         country_data: dict[str, list[dict[str, Any]]] = {}
         record_count_by_year: dict[str, int] = {}
 
         for year in YEARS:
+            print(f"  {year}:")
+
             try:
-                ports = get_ports_for_country_year(iso3, year)
-                if not ports:
-                    print(f"  {year}: no ports found")
+                features = fetch_country_year_features(iso3, year)
+
+                record_count_by_year[str(year)] = len(features)
+                total_records_raw += len(features)
+
+                if not features:
+                    print("    no data")
                     continue
-                
-                print(f"  {year}: {len(ports)} port(s)")
-                year_record_count = 0
-                
-                for port in ports:
-                    try:
-                        features = fetch_port_year_features(iso3, port, year)
-                        year_record_count += len(features)
-                        merge_year_data(country_data, aggregate_features(features, fallback_year=year))
-                    except Exception as port_exc:
-                        print(f"    Port '{port}' ({len(port)} chars): {port_exc}", file=sys.stderr)
-                        raise
-                
-                record_count_by_year[str(year)] = year_record_count
-                
-            except Exception as exc:  # noqa: BLE001
+
+                country_data.update(aggregate_features(features, fallback_year=year))
+
+                print(f"    fetched {len(features)} raw records")
+
+            except Exception as exc:
                 errors[f"{country} {year}"] = str(exc)
+                record_count_by_year[str(year)] = 0
                 print(f"WARNING: {country} {year} failed: {exc}", file=sys.stderr)
 
-        if country_data:
-            countries[country] = {
-                "iso3": iso3,
-                "record_count_by_year": record_count_by_year,
-                "data": country_data,
-            }
-        else:
+        countries[country] = {
+            "iso3": iso3,
+            "record_count_by_year": record_count_by_year,
+            "data": country_data,
+        }
+
+        if not country_data:
             errors[country] = "No records returned for any requested year"
+
+    total_records_aggregated = sum(
+        len(rows)
+        for country_info in countries.values()
+        for rows in country_info["data"].values()
+    )
 
     output = {
         "last_updated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -265,11 +249,25 @@ def main() -> int:
         "years": YEARS,
         "countries": countries,
         "errors": errors,
+        "total_countries": len(countries),
+        "total_records_raw": total_records_raw,
+        "total_records": total_records_aggregated,
     }
 
     OUTFILE.parent.mkdir(parents=True, exist_ok=True)
-    OUTFILE.write_text(json.dumps(output, indent=2, sort_keys=True), encoding="utf-8")
-    print(f"Wrote {OUTFILE} with {len(countries)} countries and {len(errors)} warnings.")
+    OUTFILE.write_text(
+        json.dumps(output, indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
+
+    print("\n" + "=" * 70)
+    print(f"Wrote {OUTFILE}")
+    print(f"Countries: {len(countries)}")
+    print(f"Raw records fetched: {total_records_raw}")
+    print(f"Aggregated records written: {total_records_aggregated}")
+    print(f"Warnings/errors: {len(errors)}")
+    print("=" * 70)
+
     return 0 if countries else 1
 
 
