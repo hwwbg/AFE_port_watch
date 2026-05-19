@@ -386,7 +386,20 @@ async function main() {
         return;
     }
 
-    const validCountries = Object.keys(tankerCache.countries || {}).sort((a, b) => a.localeCompare(b));
+    const validCountries = Object.keys(tankerCache.countries || {})
+    .filter(country => {
+        const data = tankerCache.countries[country]?.data || {};
+        return Object.values(data).some(rows =>
+            Array.isArray(rows) &&
+            rows.some(r =>
+                (Number(r.calls) || 0) > 0 ||
+                (Number(r.volume) || 0) > 0 ||
+                (Number(r.cumCalls) || 0) > 0 ||
+                (Number(r.cumVol) || 0) > 0
+            )
+        );
+    })
+    .sort((a, b) => a.localeCompare(b));
     if (!validCountries.length) {
         loading.textContent = "No cached country data found.";
         return;
