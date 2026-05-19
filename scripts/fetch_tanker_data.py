@@ -54,6 +54,26 @@ AFE_COUNTRIES = {
 }
 
 
+def load_existing_cache() -> dict[str, Any]:
+    if OUTFILE.exists():
+        try:
+            return json.loads(OUTFILE.read_text(encoding="utf-8"))
+        except Exception:
+            return {}
+    return {}
+
+
+def get_old_year_data(
+    existing_countries: dict[str, Any],
+    country: str,
+    year: int,
+) -> list[dict[str, Any]] | None:
+    old_rows = existing_countries.get(country, {}).get("data", {}).get(str(year))
+    if isinstance(old_rows, list) and old_rows:
+        return old_rows
+    return None
+
+
 def parse_day_of_year(value: Any) -> int | None:
     if value in (None, ""):
         return None
@@ -86,7 +106,11 @@ def parse_day_of_year(value: Any) -> int | None:
         return None
 
 
-def get_json(params: dict[str, Any], retries: int = 3, sleep_seconds: float = 2.0) -> dict[str, Any]:
+def get_json(
+    params: dict[str, Any],
+    retries: int = 3,
+    sleep_seconds: float = 2.0,
+) -> dict[str, Any]:
     ssl_context = ssl._create_unverified_context()
     url = f"{BASE_URL}?{urlencode(params)}"
 
@@ -129,7 +153,11 @@ def get_ports_for_country_year(iso3: str, year: int) -> list[str]:
     return ports
 
 
-def fetch_port_year_features(iso3: str, portname: str, year: int) -> list[dict[str, Any]]:
+def fetch_port_year_features(
+    iso3: str,
+    portname: str,
+    year: int,
+) -> list[dict[str, Any]]:
     features = []
     offset = 0
     escaped_portname = portname.replace("'", "''")
@@ -163,7 +191,10 @@ def fetch_port_year_features(iso3: str, portname: str, year: int) -> list[dict[s
     return features
 
 
-def aggregate_features(features: list[dict[str, Any]], fallback_year: int) -> dict[str, list[dict[str, Any]]]:
+def aggregate_features(
+    features: list[dict[str, Any]],
+    fallback_year: int,
+) -> dict[str, list[dict[str, Any]]]:
     daily = defaultdict(lambda: {"calls": 0.0, "volume": 0.0})
 
     for feature in features:
@@ -201,6 +232,9 @@ def aggregate_features(features: list[dict[str, Any]], fallback_year: int) -> di
 
 
 def main() -> int:
+    existing_cache = load_existing_cache()
+    existing_countries = existing_cache.get("countries", {})
+
     countries = {}
     errors = {}
     total_records_raw = 0
@@ -218,6 +252,12 @@ def main() -> int:
                 if not ports:
                     print(f"  {year}: no ports found")
                     record_count_by_year[str(year)] = 0
+
+                    old_rows = get_old_year_data(existing_countries, country, year)
+                    if old_rows:
+                        country_data[str(year)] = old_rows
+                        print(f"    kept previous cached data for {country} {year}")
+
                     continue
 
                 print(f"  {year}: {len(ports)} port(s)")
@@ -234,6 +274,11 @@ def main() -> int:
 
                 if all_features:
                     country_data.update(aggregate_features(all_features, fallback_year=year))
+                else:
+                    old_rows = get_old_year_data(existing_countries, country, year)
+                    if old_rows:
+                        country_data[str(year)] = old_rows
+                        print(f"    kept previous cached data for {country} {year}")
 
                 print(f"    total {year}: {len(all_features)} raw records")
 
@@ -241,6 +286,11 @@ def main() -> int:
                 errors[f"{country} {year}"] = str(exc)
                 record_count_by_year[str(year)] = 0
                 print(f"WARNING: {country} {year} failed: {exc}", file=sys.stderr)
+
+                old_rows = get_old_year_data(existing_countries, country, year)
+                if old_rows:
+                    country_data[str(year)] = old_rows
+                    print(f"    kept previous cached data for {country} {year}")
 
         countries[country] = {
             "iso3": iso3,
@@ -272,7 +322,10 @@ def main() -> int:
     }
 
     OUTFILE.parent.mkdir(parents=True, exist_ok=True)
-    OUTFILE.write_text(json.dumps(output, indent=2, sort_keys=True), encoding="utf-8")
+    OUTFILE.write_text(
+        json.dumps(output, indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
 
     print(f"\nWrote {OUTFILE}")
     print(f"Countries: {len(countries)}")
