@@ -6073,9 +6073,9 @@
       },
       "iso3": "AGO",
       "record_count_by_year": {
-        "2024": 4392,
-        "2025": 4380,
-        "2026": 1620
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Botswana": {
@@ -12169,9 +12169,9 @@
       },
       "iso3": "COM",
       "record_count_by_year": {
-        "2024": 732,
-        "2025": 730,
-        "2026": 270
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Congo, Dem. Rep.": {
@@ -18247,9 +18247,9 @@
       },
       "iso3": "COD",
       "record_count_by_year": {
-        "2024": 2196,
-        "2025": 2190,
-        "2026": 810
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Eritrea": {
@@ -24325,8 +24325,8 @@
       },
       "iso3": "ERI",
       "record_count_by_year": {
-        "2024": 366,
-        "2025": 365,
+        "2024": 0,
+        "2025": 0,
         "2026": 135
       }
     },
@@ -36508,9 +36508,9 @@
       },
       "iso3": "MDG",
       "record_count_by_year": {
-        "2024": 2196,
-        "2025": 2190,
-        "2026": 810
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Malawi": {
@@ -42595,8 +42595,8 @@
       },
       "iso3": "MUS",
       "record_count_by_year": {
-        "2024": 366,
-        "2025": 365,
+        "2024": 0,
+        "2025": 0,
         "2026": 135
       }
     },
@@ -48673,9 +48673,9 @@
       },
       "iso3": "MOZ",
       "record_count_by_year": {
-        "2024": 1830,
-        "2025": 1825,
-        "2026": 675
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Namibia": {
@@ -54751,9 +54751,9 @@
       },
       "iso3": "NAM",
       "record_count_by_year": {
-        "2024": 732,
-        "2025": 730,
-        "2026": 270
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Rwanda": {
@@ -60839,8 +60839,8 @@
       "iso3": "SYC",
       "record_count_by_year": {
         "2024": 366,
-        "2025": 365,
-        "2026": 135
+        "2025": 0,
+        "2026": 0
       }
     },
     "Somalia": {
@@ -66916,9 +66916,9 @@
       },
       "iso3": "SOM",
       "record_count_by_year": {
-        "2024": 1830,
-        "2025": 1825,
-        "2026": 675
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "South Africa": {
@@ -72994,9 +72994,9 @@
       },
       "iso3": "ZAF",
       "record_count_by_year": {
-        "2024": 2928,
-        "2025": 2920,
-        "2026": 1080
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "South Sudan": {
@@ -79081,9 +79081,9 @@
       },
       "iso3": "SDN",
       "record_count_by_year": {
-        "2024": 1098,
-        "2025": 1095,
-        "2026": 405
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Tanzania": {
@@ -85159,9 +85159,9 @@
       },
       "iso3": "TZA",
       "record_count_by_year": {
-        "2024": 1464,
-        "2025": 1460,
-        "2026": 540
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Uganda": {
@@ -85193,26 +85193,76 @@
     }
   },
   "errors": {
+    "Angola 2024": "ArcGIS error for AGO 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Angola 2025": "ArcGIS error for AGO Angola - Offshore Oil Terminal 5 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Angola 2026": "ArcGIS error for AGO 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Botswana": "No records returned for any requested year",
+    "Botswana 2024": "ArcGIS error for BWA 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Botswana 2025": "ArcGIS error for BWA 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Botswana 2026": "ArcGIS error for BWA 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Burundi": "No records returned for any requested year",
+    "Burundi 2024": "ArcGIS error for BDI 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Burundi 2025": "ArcGIS error for BDI 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Comoros 2024": "ArcGIS error for COM Moroni 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Comoros 2025": "ArcGIS error for COM 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Comoros 2026": "ArcGIS error for COM Mutsamudu 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Congo, Dem. Rep. 2024": "ArcGIS error for COD 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Congo, Dem. Rep. 2025": "ArcGIS error for COD Matadi 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Congo, Dem. Rep. 2026": "ArcGIS error for COD 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Eritrea 2024": "ArcGIS error for ERI 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Eritrea 2025": "ArcGIS error for ERI 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Eswatini": "No records returned for any requested year",
     "Ethiopia": "No records returned for any requested year",
     "Lesotho": "No records returned for any requested year",
+    "Madagascar 2024": "ArcGIS error for MDG Ehoala 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Madagascar 2025": "ArcGIS error for MDG Andoany 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Madagascar 2026": "ArcGIS error for MDG 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Malawi": "No records returned for any requested year",
+    "Malawi 2025": "ArcGIS error for MWI 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Mauritius 2024": "ArcGIS error for MUS Port Louis 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Mauritius 2025": "ArcGIS error for MUS Port Louis 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Mozambique 2024": "ArcGIS error for MOZ Beira 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Mozambique 2025": "ArcGIS error for MOZ 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Mozambique 2026": "ArcGIS error for MOZ Maputo 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Namibia 2024": "ArcGIS error for NAM Luderitz Bay 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Namibia 2025": "ArcGIS error for NAM Luderitz Bay 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Namibia 2026": "ArcGIS error for NAM 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Rwanda": "No records returned for any requested year",
+    "Rwanda 2024": "ArcGIS error for RWA 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Rwanda 2025": "ArcGIS error for RWA 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Seychelles 2025": "ArcGIS error for SYC 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Seychelles 2026": "ArcGIS error for SYC 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Somalia 2024": "ArcGIS error for SOM Bosaso 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Somalia 2025": "ArcGIS error for SOM 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Somalia 2026": "ArcGIS error for SOM Berbera 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "South Africa 2024": "ArcGIS error for ZAF 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "South Africa 2025": "ArcGIS error for ZAF Cape Town 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "South Africa 2026": "ArcGIS error for ZAF 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "South Sudan": "No records returned for any requested year",
+    "South Sudan 2024": "ArcGIS error for SSD 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "South Sudan 2026": "ArcGIS error for SSD 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Sudan 2024": "ArcGIS error for SDN 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Sudan 2025": "ArcGIS error for SDN 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Sudan 2026": "ArcGIS error for SDN 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Tanzania 2024": "ArcGIS error for TZA 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Tanzania 2025": "ArcGIS error for TZA 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Tanzania 2026": "ArcGIS error for TZA 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Uganda": "No records returned for any requested year",
+    "Uganda 2025": "ArcGIS error for UGA 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Uganda 2026": "ArcGIS error for UGA 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Zambia": "No records returned for any requested year",
+    "Zambia 2024": "ArcGIS error for ZMB 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Zambia 2025": "ArcGIS error for ZMB 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Zimbabwe": "No records returned for any requested year"
   },
-  "last_updated_utc": "2026-05-20T10:24:36+00:00",
+  "last_updated_utc": "2026-05-21T11:26:49+00:00",
   "max_year": 2026,
   "min_year": 2024,
   "source": "ArcGIS Daily_Ports_Data FeatureServer",
   "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query",
   "total_countries": 25,
   "total_records": 12124,
-  "total_records_raw": 50228,
+  "total_records_raw": 2368,
   "years": [
     2024,
     2025,
