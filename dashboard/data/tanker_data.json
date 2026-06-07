@@ -12366,8 +12366,8 @@
       "iso3": "COM",
       "record_count_by_year": {
         "2024": 732,
-        "2025": 0,
-        "2026": 0
+        "2025": 730,
+        "2026": 298
       }
     },
     "Congo, Dem. Rep.": {
@@ -18541,7 +18541,7 @@
       },
       "iso3": "COD",
       "record_count_by_year": {
-        "2024": 0,
+        "2024": 2196,
         "2025": 2190,
         "2026": 894
       }
@@ -86567,10 +86567,6 @@
   "errors": {
     "Botswana": "No records returned for any requested year",
     "Burundi": "No records returned for any requested year",
-    "Burundi 2026": "ArcGIS error for BDI 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Comoros 2025": "ArcGIS error for COM 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Comoros 2026": "ArcGIS error for COM 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Congo, Dem. Rep. 2024": "ArcGIS error for COD 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Eswatini": "No records returned for any requested year",
     "Ethiopia": "No records returned for any requested year",
     "Lesotho": "No records returned for any requested year",
@@ -86581,14 +86577,14 @@
     "Zambia": "No records returned for any requested year",
     "Zimbabwe": "No records returned for any requested year"
   },
-  "last_updated_utc": "2026-06-06T09:34:39+00:00",
+  "last_updated_utc": "2026-06-07T09:56:32+00:00",
   "max_year": 2026,
   "min_year": 2024,
   "source": "ArcGIS Daily_Ports_Data FeatureServer",
   "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query",
   "total_countries": 25,
   "total_records": 12320,
-  "total_records_raw": 47816,
+  "total_records_raw": 51040,
   "years": [
     2024,
     2025,
