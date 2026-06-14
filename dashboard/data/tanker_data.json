@@ -12465,7 +12465,7 @@
       "record_count_by_year": {
         "2024": 732,
         "2025": 730,
-        "2026": 312
+        "2026": 0
       }
     },
     "Congo, Dem. Rep.": {
@@ -18688,9 +18688,9 @@
       },
       "iso3": "COD",
       "record_count_by_year": {
-        "2024": 2196,
-        "2025": 2190,
-        "2026": 936
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Eritrea": {
@@ -24913,9 +24913,9 @@
       },
       "iso3": "ERI",
       "record_count_by_year": {
-        "2024": 366,
-        "2025": 365,
-        "2026": 156
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Eswatini": {
@@ -31156,7 +31156,7 @@
       },
       "iso3": "KEN",
       "record_count_by_year": {
-        "2024": 732,
+        "2024": 0,
         "2025": 730,
         "2026": 312
       }
@@ -37392,7 +37392,7 @@
       "record_count_by_year": {
         "2024": 2196,
         "2025": 2190,
-        "2026": 0
+        "2026": 936
       }
     },
     "Malawi": {
@@ -49851,7 +49851,7 @@
       "record_count_by_year": {
         "2024": 1830,
         "2025": 1825,
-        "2026": 0
+        "2026": 780
       }
     },
     "Namibia": {
@@ -56074,7 +56074,7 @@
       },
       "iso3": "NAM",
       "record_count_by_year": {
-        "2024": 0,
+        "2024": 732,
         "2025": 730,
         "2026": 312
       }
@@ -87253,27 +87253,32 @@
   "errors": {
     "Botswana": "No records returned for any requested year",
     "Burundi": "No records returned for any requested year",
+    "Comoros 2026": "ArcGIS error for COM Mutsamudu 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Congo, Dem. Rep. 2024": "ArcGIS error for COD 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Congo, Dem. Rep. 2025": "ArcGIS error for COD Democratic Republic of the Congo - Offshore Oil Terminal 1 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Congo, Dem. Rep. 2026": "ArcGIS error for COD Democratic Republic of the Congo - Offshore Oil Terminal 2 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Eritrea 2024": "ArcGIS error for ERI 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Eritrea 2025": "ArcGIS error for ERI 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Eritrea 2026": "ArcGIS error for ERI 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Eswatini": "No records returned for any requested year",
     "Ethiopia": "No records returned for any requested year",
+    "Kenya 2024": "ArcGIS error for KEN 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Lesotho": "No records returned for any requested year",
-    "Madagascar 2026": "ArcGIS error for MDG Majunga 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Malawi": "No records returned for any requested year",
-    "Mozambique 2026": "ArcGIS error for MOZ Beira 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Namibia 2024": "ArcGIS error for NAM 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Rwanda": "No records returned for any requested year",
     "South Sudan": "No records returned for any requested year",
     "Uganda": "No records returned for any requested year",
     "Zambia": "No records returned for any requested year",
     "Zimbabwe": "No records returned for any requested year"
   },
-  "last_updated_utc": "2026-06-13T10:37:05+00:00",
+  "last_updated_utc": "2026-06-14T11:10:41+00:00",
   "max_year": 2026,
   "min_year": 2024,
   "source": "ArcGIS Daily_Ports_Data FeatureServer",
   "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query",
   "total_countries": 25,
   "total_records": 12418,
-  "total_records_raw": 48998,
+  "total_records_raw": 44193,
   "years": [
     2024,
     2025,
