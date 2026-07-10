@@ -6416,7 +6416,7 @@
       },
       "iso3": "AGO",
       "record_count_by_year": {
-        "2024": 0,
+        "2024": 4392,
         "2025": 4380,
         "2026": 2208
       }
@@ -89995,10 +89995,11 @@
     }
   },
   "errors": {
-    "Angola 2024": "ArcGIS error for AGO 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Botswana": "No records returned for any requested year",
     "Burundi": "No records returned for any requested year",
     "Eswatini": "No records returned for any requested year",
+    "Eswatini 2025": "ArcGIS error for SWZ 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Eswatini 2026": "ArcGIS error for SWZ 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Ethiopia": "No records returned for any requested year",
     "Lesotho": "No records returned for any requested year",
     "Malawi": "No records returned for any requested year",
@@ -90008,14 +90009,14 @@
     "Zambia": "No records returned for any requested year",
     "Zimbabwe": "No records returned for any requested year"
   },
-  "last_updated_utc": "2026-07-09T10:30:00+00:00",
+  "last_updated_utc": "2026-07-10T10:35:09+00:00",
   "max_year": 2026,
   "min_year": 2024,
   "source": "ArcGIS Daily_Ports_Data FeatureServer",
   "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query",
   "total_countries": 25,
   "total_records": 12810,
-  "total_records_raw": 48678,
+  "total_records_raw": 53070,
   "years": [
     2024,
     2025,
