@@ -90000,8 +90000,6 @@
     "Eswatini": "No records returned for any requested year",
     "Ethiopia": "No records returned for any requested year",
     "Lesotho": "No records returned for any requested year",
-    "Lesotho 2024": "ArcGIS error for LSO 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Lesotho 2025": "ArcGIS error for LSO 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Malawi": "No records returned for any requested year",
     "Rwanda": "No records returned for any requested year",
     "South Sudan": "No records returned for any requested year",
@@ -90009,7 +90007,7 @@
     "Zambia": "No records returned for any requested year",
     "Zimbabwe": "No records returned for any requested year"
   },
-  "last_updated_utc": "2026-07-13T10:23:03+00:00",
+  "last_updated_utc": "2026-07-14T08:54:30+00:00",
   "max_year": 2026,
   "min_year": 2024,
   "source": "ArcGIS Daily_Ports_Data FeatureServer",
