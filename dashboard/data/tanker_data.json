@@ -6661,7 +6661,7 @@
       },
       "iso3": "AGO",
       "record_count_by_year": {
-        "2024": 0,
+        "2024": 4392,
         "2025": 0,
         "2026": 0
       }
@@ -13346,8 +13346,8 @@
       "iso3": "COM",
       "record_count_by_year": {
         "2024": 0,
-        "2025": 0,
-        "2026": 438
+        "2025": 730,
+        "2026": 0
       }
     },
     "Congo, Dem. Rep.": {
@@ -20011,8 +20011,8 @@
       },
       "iso3": "COD",
       "record_count_by_year": {
-        "2024": 2196,
-        "2025": 2190,
+        "2024": 0,
+        "2025": 0,
         "2026": 1314
       }
     },
@@ -26677,7 +26677,7 @@
       },
       "iso3": "ERI",
       "record_count_by_year": {
-        "2024": 366,
+        "2024": 0,
         "2025": 365,
         "2026": 219
       }
@@ -40038,7 +40038,7 @@
       "record_count_by_year": {
         "2024": 2196,
         "2025": 2190,
-        "2026": 0
+        "2026": 1314
       }
     },
     "Malawi": {
@@ -93425,19 +93425,21 @@
     }
   },
   "errors": {
-    "Angola 2024": "ArcGIS error for AGO Soyo Angola LNG Terminal 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Angola 2025": "ArcGIS error for AGO 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Angola 2026": "ArcGIS error for AGO 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Angola 2025": "ArcGIS error for AGO Angola - Offshore Oil Terminal 4 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Angola 2026": "ArcGIS error for AGO Angola - Offshore Oil Terminal 2 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Botswana": "No records returned for any requested year",
     "Botswana 2024": "ArcGIS error for BWA 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Burundi": "No records returned for any requested year",
+    "Burundi 2024": "ArcGIS error for BDI 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Burundi 2026": "ArcGIS error for BDI 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Comoros 2024": "ArcGIS error for COM 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Comoros 2025": "ArcGIS error for COM 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Comoros 2026": "ArcGIS error for COM Moroni 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Congo, Dem. Rep. 2024": "ArcGIS error for COD Banana 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Congo, Dem. Rep. 2025": "ArcGIS error for COD 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Eritrea 2024": "ArcGIS error for ERI Massawa 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Eswatini": "No records returned for any requested year",
     "Ethiopia": "No records returned for any requested year",
     "Lesotho": "No records returned for any requested year",
-    "Madagascar 2026": "ArcGIS error for MDG Antsiranana (Diego Suarez) 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Malawi": "No records returned for any requested year",
     "Rwanda": "No records returned for any requested year",
     "South Sudan": "No records returned for any requested year",
@@ -93445,14 +93447,14 @@
     "Zambia": "No records returned for any requested year",
     "Zimbabwe": "No records returned for any requested year"
   },
-  "last_updated_utc": "2026-08-16T07:45:44+00:00",
+  "last_updated_utc": "2026-08-17T08:20:34+00:00",
   "max_year": 2026,
   "min_year": 2024,
   "source": "ArcGIS Daily_Ports_Data FeatureServer",
   "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query",
   "total_countries": 25,
   "total_records": 13300,
-  "total_records_raw": 40924,
+  "total_records_raw": 42170,
   "years": [
     2024,
     2025,
