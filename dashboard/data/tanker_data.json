@@ -68678,9 +68678,9 @@
       },
       "iso3": "SYC",
       "record_count_by_year": {
-        "2024": 366,
-        "2025": 365,
-        "2026": 247
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Somalia": {
@@ -96137,7 +96137,7 @@
       "record_count_by_year": {
         "2024": 1464,
         "2025": 1460,
-        "2026": 988
+        "2026": 0
       }
     },
     "Uganda": {
@@ -96176,19 +96176,24 @@
     "Lesotho": "No records returned for any requested year",
     "Malawi": "No records returned for any requested year",
     "Rwanda": "No records returned for any requested year",
+    "Rwanda 2026": "ArcGIS error for RWA 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Seychelles 2024": "ArcGIS error for SYC 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Seychelles 2025": "ArcGIS error for SYC 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
+    "Seychelles 2026": "ArcGIS error for SYC 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "South Sudan": "No records returned for any requested year",
+    "Tanzania 2026": "ArcGIS error for TZA Zanzibar 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Uganda": "No records returned for any requested year",
     "Zambia": "No records returned for any requested year",
     "Zimbabwe": "No records returned for any requested year"
   },
-  "last_updated_utc": "2026-09-11T11:44:28+00:00",
+  "last_updated_utc": "2026-09-12T11:35:33+00:00",
   "max_year": 2026,
   "min_year": 2024,
   "source": "ArcGIS Daily_Ports_Data FeatureServer",
   "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query",
   "total_countries": 25,
   "total_records": 13692,
-  "total_records_raw": 56724,
+  "total_records_raw": 54758,
   "years": [
     2024,
     2025,
