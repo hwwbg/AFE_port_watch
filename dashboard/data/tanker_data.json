@@ -6957,7 +6957,7 @@
       "record_count_by_year": {
         "2024": 0,
         "2025": 0,
-        "2026": 0
+        "2026": 3132
       }
     },
     "Botswana": {
@@ -48769,7 +48769,7 @@
       },
       "iso3": "MUS",
       "record_count_by_year": {
-        "2024": 0,
+        "2024": 366,
         "2025": 365,
         "2026": 261
       }
@@ -55730,7 +55730,7 @@
       "iso3": "MOZ",
       "record_count_by_year": {
         "2024": 1830,
-        "2025": 0,
+        "2025": 1825,
         "2026": 1305
       }
     },
@@ -97543,32 +97543,26 @@
   "errors": {
     "Angola 2024": "ArcGIS error for AGO 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Angola 2025": "ArcGIS error for AGO 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Angola 2026": "ArcGIS error for AGO 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Botswana": "No records returned for any requested year",
-    "Botswana 2024": "ArcGIS error for BWA 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Botswana 2026": "ArcGIS error for BWA 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Burundi": "No records returned for any requested year",
-    "Burundi 2025": "ArcGIS error for BDI 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Eswatini": "No records returned for any requested year",
     "Ethiopia": "No records returned for any requested year",
     "Lesotho": "No records returned for any requested year",
     "Malawi": "No records returned for any requested year",
-    "Mauritius 2024": "ArcGIS error for MUS 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Mozambique 2025": "ArcGIS error for MOZ 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Rwanda": "No records returned for any requested year",
     "South Sudan": "No records returned for any requested year",
     "Uganda": "No records returned for any requested year",
     "Zambia": "No records returned for any requested year",
     "Zimbabwe": "No records returned for any requested year"
   },
-  "last_updated_utc": "2026-09-24T12:34:13+00:00",
+  "last_updated_utc": "2026-09-25T12:23:09+00:00",
   "max_year": 2026,
   "min_year": 2024,
   "source": "ArcGIS Daily_Ports_Data FeatureServer",
   "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query",
   "total_countries": 25,
   "total_records": 13888,
-  "total_records_raw": 43441,
+  "total_records_raw": 48764,
   "years": [
     2024,
     2025,
