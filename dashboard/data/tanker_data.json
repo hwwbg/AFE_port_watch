@@ -77697,8 +77697,8 @@
       "iso3": "SOM",
       "record_count_by_year": {
         "2024": 1830,
-        "2025": 0,
-        "2026": 0
+        "2025": 1825,
+        "2026": 1375
       }
     },
     "South Africa": {
@@ -84754,9 +84754,9 @@
       },
       "iso3": "ZAF",
       "record_count_by_year": {
-        "2024": 0,
-        "2025": 0,
-        "2026": 0
+        "2024": 2928,
+        "2025": 2920,
+        "2026": 2200
       }
     },
     "South Sudan": {
@@ -91821,9 +91821,9 @@
       },
       "iso3": "SDN",
       "record_count_by_year": {
-        "2024": 0,
-        "2025": 0,
-        "2026": 0
+        "2024": 1098,
+        "2025": 1095,
+        "2026": 825
       }
     },
     "Tanzania": {
@@ -98879,9 +98879,9 @@
       },
       "iso3": "TZA",
       "record_count_by_year": {
-        "2024": 0,
-        "2025": 0,
-        "2026": 0
+        "2024": 1464,
+        "2025": 1460,
+        "2026": 1100
       }
     },
     "Uganda": {
@@ -98920,39 +98920,19 @@
     "Lesotho": "No records returned for any requested year",
     "Malawi": "No records returned for any requested year",
     "Rwanda": "No records returned for any requested year",
-    "Somalia 2025": "ArcGIS error for SOM Mogadishu 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6006 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Somalia 2026": "ArcGIS error for SOM 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6006 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "South Africa 2024": "ArcGIS error for ZAF 2024: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6006 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "South Africa 2025": "ArcGIS error for ZAF Durban 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6004 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "South Africa 2026": "ArcGIS error for ZAF 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6004 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
     "South Sudan": "No records returned for any requested year",
-    "South Sudan 2024": "ArcGIS error for SSD 2024: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6004 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "South Sudan 2025": "ArcGIS error for SSD 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6004 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "South Sudan 2026": "ArcGIS error for SSD 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6004 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Sudan 2024": "ArcGIS error for SDN Bashayer 2024: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6009 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Sudan 2025": "ArcGIS error for SDN 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6012 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Sudan 2026": "ArcGIS error for SDN Suakin 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6002 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Tanzania 2024": "ArcGIS error for TZA 2024: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6005 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Tanzania 2025": "ArcGIS error for TZA Tanga 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6006 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Tanzania 2026": "ArcGIS error for TZA 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6006 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
     "Uganda": "No records returned for any requested year",
-    "Uganda 2025": "ArcGIS error for UGA 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6002 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
     "Zambia": "No records returned for any requested year",
-    "Zambia 2024": "ArcGIS error for ZMB 2024: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6001 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Zambia 2025": "ArcGIS error for ZMB 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6004 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Zambia 2026": "ArcGIS error for ZMB 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6004 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Zimbabwe": "No records returned for any requested year",
-    "Zimbabwe 2024": "ArcGIS error for ZWE 2024: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6004 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Zimbabwe 2025": "ArcGIS error for ZWE 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6004 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}"
+    "Zimbabwe": "No records returned for any requested year"
   },
-  "last_updated_utc": "2026-10-09T13:37:56+00:00",
+  "last_updated_utc": "2026-10-10T12:50:58+00:00",
   "max_year": 2026,
   "min_year": 2024,
   "source": "ArcGIS Daily_Ports_Data FeatureServer",
   "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query",
   "total_countries": 25,
   "total_records": 14084,
-  "total_records_raw": 40058,
+  "total_records_raw": 58348,
   "years": [
     2024,
     2025,
