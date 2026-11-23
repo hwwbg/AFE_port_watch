@@ -7347,9 +7347,9 @@
       },
       "iso3": "AGO",
       "record_count_by_year": {
-        "2024": 4392,
-        "2025": 4380,
-        "2026": 3804
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Botswana": {
@@ -14717,9 +14717,9 @@
       },
       "iso3": "COM",
       "record_count_by_year": {
-        "2024": 732,
-        "2025": 730,
-        "2026": 634
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Congo, Dem. Rep.": {
@@ -22069,9 +22069,9 @@
       },
       "iso3": "COD",
       "record_count_by_year": {
-        "2024": 2196,
-        "2025": 2190,
-        "2026": 1902
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Eritrea": {
@@ -29421,9 +29421,9 @@
       },
       "iso3": "ERI",
       "record_count_by_year": {
-        "2024": 366,
-        "2025": 365,
-        "2026": 317
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Eswatini": {
@@ -36791,9 +36791,9 @@
       },
       "iso3": "KEN",
       "record_count_by_year": {
-        "2024": 732,
-        "2025": 730,
-        "2026": 634
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Lesotho": {
@@ -44152,9 +44152,9 @@
       },
       "iso3": "MDG",
       "record_count_by_year": {
-        "2024": 2196,
-        "2025": 2190,
-        "2026": 1902
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Malawi": {
@@ -51513,9 +51513,9 @@
       },
       "iso3": "MUS",
       "record_count_by_year": {
-        "2024": 366,
-        "2025": 365,
-        "2026": 317
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Mozambique": {
@@ -58865,9 +58865,9 @@
       },
       "iso3": "MOZ",
       "record_count_by_year": {
-        "2024": 1830,
-        "2025": 1825,
-        "2026": 1585
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Namibia": {
@@ -66217,9 +66217,9 @@
       },
       "iso3": "NAM",
       "record_count_by_year": {
-        "2024": 732,
-        "2025": 730,
-        "2026": 634
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Rwanda": {
@@ -73578,9 +73578,9 @@
       },
       "iso3": "SYC",
       "record_count_by_year": {
-        "2024": 366,
-        "2025": 365,
-        "2026": 317
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Somalia": {
@@ -80930,9 +80930,9 @@
       },
       "iso3": "SOM",
       "record_count_by_year": {
-        "2024": 1830,
-        "2025": 1825,
-        "2026": 1585
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "South Africa": {
@@ -88282,9 +88282,9 @@
       },
       "iso3": "ZAF",
       "record_count_by_year": {
-        "2024": 2928,
-        "2025": 2920,
-        "2026": 2536
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "South Sudan": {
@@ -95643,9 +95643,9 @@
       },
       "iso3": "SDN",
       "record_count_by_year": {
-        "2024": 1098,
-        "2025": 1095,
-        "2026": 951
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Tanzania": {
@@ -102995,9 +102995,9 @@
       },
       "iso3": "TZA",
       "record_count_by_year": {
-        "2024": 1464,
-        "2025": 1460,
-        "2026": 1268
+        "2024": 0,
+        "2025": 0,
+        "2026": 0
       }
     },
     "Uganda": {
@@ -103029,26 +103029,101 @@
     }
   },
   "errors": {
+    "Angola 2024": "ArcGIS error for AGO 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Angola 2025": "ArcGIS error for AGO 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Angola 2026": "ArcGIS error for AGO 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
     "Botswana": "No records returned for any requested year",
+    "Botswana 2024": "ArcGIS error for BWA 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Botswana 2025": "ArcGIS error for BWA 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Botswana 2026": "ArcGIS error for BWA 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
     "Burundi": "No records returned for any requested year",
+    "Burundi 2024": "ArcGIS error for BDI 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Burundi 2025": "ArcGIS error for BDI 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Burundi 2026": "ArcGIS error for BDI 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Comoros 2024": "ArcGIS error for COM 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Comoros 2025": "ArcGIS error for COM 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Comoros 2026": "ArcGIS error for COM 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Congo, Dem. Rep. 2024": "ArcGIS error for COD 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Congo, Dem. Rep. 2025": "ArcGIS error for COD 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Congo, Dem. Rep. 2026": "ArcGIS error for COD 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Eritrea 2024": "ArcGIS error for ERI 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Eritrea 2025": "ArcGIS error for ERI 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Eritrea 2026": "ArcGIS error for ERI 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
     "Eswatini": "No records returned for any requested year",
+    "Eswatini 2024": "ArcGIS error for SWZ 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Eswatini 2025": "ArcGIS error for SWZ 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Eswatini 2026": "ArcGIS error for SWZ 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
     "Ethiopia": "No records returned for any requested year",
+    "Ethiopia 2024": "ArcGIS error for ETH 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Ethiopia 2025": "ArcGIS error for ETH 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Ethiopia 2026": "ArcGIS error for ETH 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Kenya 2024": "ArcGIS error for KEN 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Kenya 2025": "ArcGIS error for KEN 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Kenya 2026": "ArcGIS error for KEN 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
     "Lesotho": "No records returned for any requested year",
+    "Lesotho 2024": "ArcGIS error for LSO 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Lesotho 2025": "ArcGIS error for LSO 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Lesotho 2026": "ArcGIS error for LSO 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Madagascar 2024": "ArcGIS error for MDG 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Madagascar 2025": "ArcGIS error for MDG 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Madagascar 2026": "ArcGIS error for MDG 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
     "Malawi": "No records returned for any requested year",
+    "Malawi 2024": "ArcGIS error for MWI 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Malawi 2025": "ArcGIS error for MWI 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Malawi 2026": "ArcGIS error for MWI 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Mauritius 2024": "ArcGIS error for MUS 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Mauritius 2025": "ArcGIS error for MUS 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Mauritius 2026": "ArcGIS error for MUS 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Mozambique 2024": "ArcGIS error for MOZ 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Mozambique 2025": "ArcGIS error for MOZ 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Mozambique 2026": "ArcGIS error for MOZ 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Namibia 2024": "ArcGIS error for NAM 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Namibia 2025": "ArcGIS error for NAM 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Namibia 2026": "ArcGIS error for NAM 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
     "Rwanda": "No records returned for any requested year",
+    "Rwanda 2024": "ArcGIS error for RWA 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Rwanda 2025": "ArcGIS error for RWA 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Rwanda 2026": "ArcGIS error for RWA 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Seychelles 2024": "ArcGIS error for SYC 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Seychelles 2025": "ArcGIS error for SYC 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Seychelles 2026": "ArcGIS error for SYC 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Somalia 2024": "ArcGIS error for SOM 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Somalia 2025": "ArcGIS error for SOM 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Somalia 2026": "ArcGIS error for SOM 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "South Africa 2024": "ArcGIS error for ZAF 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "South Africa 2025": "ArcGIS error for ZAF 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "South Africa 2026": "ArcGIS error for ZAF 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
     "South Sudan": "No records returned for any requested year",
+    "South Sudan 2024": "ArcGIS error for SSD 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "South Sudan 2025": "ArcGIS error for SSD 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "South Sudan 2026": "ArcGIS error for SSD 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Sudan 2024": "ArcGIS error for SDN 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Sudan 2025": "ArcGIS error for SDN 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Sudan 2026": "ArcGIS error for SDN 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Tanzania 2024": "ArcGIS error for TZA 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Tanzania 2025": "ArcGIS error for TZA 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Tanzania 2026": "ArcGIS error for TZA 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
     "Uganda": "No records returned for any requested year",
+    "Uganda 2024": "ArcGIS error for UGA 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Uganda 2025": "ArcGIS error for UGA 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Uganda 2026": "ArcGIS error for UGA 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
     "Zambia": "No records returned for any requested year",
-    "Zimbabwe": "No records returned for any requested year"
+    "Zambia 2024": "ArcGIS error for ZMB 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Zambia 2025": "ArcGIS error for ZMB 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Zambia 2026": "ArcGIS error for ZMB 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Zimbabwe": "No records returned for any requested year",
+    "Zimbabwe 2024": "ArcGIS error for ZWE 2024: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Zimbabwe 2025": "ArcGIS error for ZWE 2025: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}",
+    "Zimbabwe 2026": "ArcGIS error for ZWE 2026: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}"
   },
-  "last_updated_utc": "2026-11-22T15:11:52+00:00",
+  "last_updated_utc": "2026-11-23T18:27:58+00:00",
   "max_year": 2026,
   "min_year": 2024,
   "source": "ArcGIS Daily_Ports_Data FeatureServer",
   "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query",
   "total_countries": 25,
   "total_records": 14672,
-  "total_records_raw": 60784,
+  "total_records_raw": 0,
   "years": [
     2024,
     2025,
