@@ -7397,8 +7397,8 @@
       "iso3": "AGO",
       "record_count_by_year": {
         "2024": 4392,
-        "2025": 0,
-        "2026": 0
+        "2025": 4380,
+        "2026": 3888
       }
     },
     "Botswana": {
@@ -14815,8 +14815,8 @@
       },
       "iso3": "COM",
       "record_count_by_year": {
-        "2024": 0,
-        "2025": 0,
+        "2024": 732,
+        "2025": 730,
         "2026": 648
       }
     },
@@ -22216,7 +22216,7 @@
       },
       "iso3": "COD",
       "record_count_by_year": {
-        "2024": 0,
+        "2024": 2196,
         "2025": 2190,
         "2026": 1944
       }
@@ -44448,7 +44448,7 @@
       "record_count_by_year": {
         "2024": 2196,
         "2025": 2190,
-        "2026": 0
+        "2026": 1944
       }
     },
     "Malawi": {
@@ -51856,9 +51856,9 @@
       },
       "iso3": "MUS",
       "record_count_by_year": {
-        "2024": 0,
-        "2025": 0,
-        "2026": 0
+        "2024": 366,
+        "2025": 365,
+        "2026": 324
       }
     },
     "Mozambique": {
@@ -59257,9 +59257,9 @@
       },
       "iso3": "MOZ",
       "record_count_by_year": {
-        "2024": 0,
-        "2025": 0,
-        "2026": 0
+        "2024": 1830,
+        "2025": 1825,
+        "2026": 1620
       }
     },
     "Namibia": {
@@ -66658,9 +66658,9 @@
       },
       "iso3": "NAM",
       "record_count_by_year": {
-        "2024": 0,
-        "2025": 0,
-        "2026": 0
+        "2024": 732,
+        "2025": 730,
+        "2026": 648
       }
     },
     "Rwanda": {
@@ -74068,9 +74068,9 @@
       },
       "iso3": "SYC",
       "record_count_by_year": {
-        "2024": 0,
-        "2025": 0,
-        "2026": 0
+        "2024": 366,
+        "2025": 365,
+        "2026": 324
       }
     },
     "Somalia": {
@@ -81469,9 +81469,9 @@
       },
       "iso3": "SOM",
       "record_count_by_year": {
-        "2024": 0,
-        "2025": 0,
-        "2026": 0
+        "2024": 1830,
+        "2025": 1825,
+        "2026": 1620
       }
     },
     "South Africa": {
@@ -103715,58 +103715,26 @@
     }
   },
   "errors": {
-    "Angola 2025": "ArcGIS error for AGO Angola - Offshore Oil Terminal 3 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Angola 2026": "ArcGIS error for AGO 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Botswana": "No records returned for any requested year",
-    "Botswana 2024": "ArcGIS error for BWA 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Botswana 2025": "ArcGIS error for BWA 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Burundi": "No records returned for any requested year",
-    "Burundi 2025": "ArcGIS error for BDI 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Comoros 2024": "ArcGIS error for COM 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Comoros 2025": "ArcGIS error for COM 2025: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
-    "Congo, Dem. Rep. 2024": "ArcGIS error for COD Democratic Republic of the Congo - Offshore Oil Terminal 2 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Eswatini": "No records returned for any requested year",
-    "Eswatini 2026": "ArcGIS error for SWZ 2026: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Ethiopia": "No records returned for any requested year",
-    "Ethiopia 2024": "ArcGIS error for ETH 2024: {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}",
     "Lesotho": "No records returned for any requested year",
-    "Madagascar 2026": "ArcGIS error for MDG Andoany 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6269 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
     "Malawi": "No records returned for any requested year",
-    "Malawi 2024": "ArcGIS error for MWI 2024: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6187 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Malawi 2025": "ArcGIS error for MWI 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6196 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Malawi 2026": "ArcGIS error for MWI 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6235 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Mauritius 2024": "ArcGIS error for MUS 2024: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6250 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Mauritius 2025": "ArcGIS error for MUS 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6286 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Mauritius 2026": "ArcGIS error for MUS 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6289 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Mozambique 2024": "ArcGIS error for MOZ 2024: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6189 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Mozambique 2025": "ArcGIS error for MOZ 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6189 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Mozambique 2026": "ArcGIS error for MOZ 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6189 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Namibia 2024": "ArcGIS error for NAM 2024: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6189 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Namibia 2025": "ArcGIS error for NAM 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6189 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Namibia 2026": "ArcGIS error for NAM 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6189 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
     "Rwanda": "No records returned for any requested year",
-    "Rwanda 2024": "ArcGIS error for RWA 2024: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6189 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Rwanda 2025": "ArcGIS error for RWA 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6189 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Rwanda 2026": "ArcGIS error for RWA 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6089 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Seychelles 2024": "ArcGIS error for SYC 2024: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6089 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Seychelles 2025": "ArcGIS error for SYC 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6089 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Seychelles 2026": "ArcGIS error for SYC 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6089 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Somalia 2024": "ArcGIS error for SOM 2024: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6089 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Somalia 2025": "ArcGIS error for SOM 2025: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6089 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
-    "Somalia 2026": "ArcGIS error for SOM 2026: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6089 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}",
     "South Sudan": "No records returned for any requested year",
     "Uganda": "No records returned for any requested year",
     "Zambia": "No records returned for any requested year",
     "Zimbabwe": "No records returned for any requested year"
   },
-  "last_updated_utc": "2026-11-26T17:56:15+00:00",
+  "last_updated_utc": "2026-11-27T17:21:39+00:00",
   "max_year": 2026,
   "min_year": 2024,
   "source": "ArcGIS Daily_Ports_Data FeatureServer",
   "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query",
   "total_countries": 25,
   "total_records": 14770,
-  "total_records_raw": 32550,
+  "total_records_raw": 61190,
   "years": [
     2024,
     2025,
